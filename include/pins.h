@@ -44,4 +44,6 @@ pin Pins[] = {
 #define set_input(number) (clr_bit(*(Pins[number]._DDR), Pins[number].P) )
 #define clr_pullup(number) (clr_bit(*(Pins[number]._PORT), Pins[number].P) )
 
+int configure_input(number);
+
 #endif
