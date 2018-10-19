@@ -1,4 +1,4 @@
-#include "include/led.h"
+#include "led.h"
 
 Led * led_setup(int number){
   Led * l = (Led*)malloc(sizeof(Led));
@@ -24,14 +24,27 @@ int led_kill_light(Led * led){
   return 1;
 }
 
-int led_change_mode(Led * led, Mode mode){
+int led_switch_light(Led * led){
+  if (led->state == Off){
+    led_make_light(led);
+  }else{
+    led_kill_light(led);
+  }
+}
+
+int led_change_mode(Led * led, Led_Mode mode){
   led->mode = mode;
   return 1;
 }
 
 int led_blink(Led * led, double time_ms){
   led_make_light(led);
-  // _delay_ms(x);
+  _delay_ms(20);
   led_kill_light(led);
+  _delay_ms(20);
   return 1;
+}
+
+void led_free(Led * led){
+  free(led);
 }
