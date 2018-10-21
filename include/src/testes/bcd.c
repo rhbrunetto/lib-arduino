@@ -1,4 +1,4 @@
-#include "bcd.h"
+#include "..bcd.h"
 #include <stdio.h>
 #include <util/delay.h>
   

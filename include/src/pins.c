@@ -19,26 +19,26 @@ pin Pins[] = {
   {PB5, &PORTB, &DDRB, &PINB}    // dpin 13
 };
 
-int set_output(int number){
+uint8_t set_output(uint8_t number){
   return set_bit(*(Pins[number]._DDR), Pins[number].P);
 }
 
-int set_pullup(int number){
+uint8_t set_pullup(uint8_t number){
   return set_bit(*(Pins[number]._PORT), Pins[number].P);
 }
 
-int toggle_pullup(int number){
+uint8_t toggle_pullup(uint8_t number){
   return swt_bit(*(Pins[number]._PORT), Pins[number].P);
 }
 
-int test_input(int number){
+uint8_t test_input(uint8_t number){
   return !tst_bit(*(Pins[number]._PIN), Pins[number].P);
 }
 
-int set_input(int number){
+uint8_t set_input(uint8_t number){
   return clr_bit(*(Pins[number]._DDR), Pins[number].P);
 }
 
-int clr_pullup(int number){
+uint8_t clr_pullup(uint8_t number){
   return clr_bit(*(Pins[number]._PORT), Pins[number].P);
 }

@@ -19,12 +19,12 @@ typedef struct{
   volatile uint8_t *_PIN;
 }pin;
 
-int set_output(int number);
-int set_pullup(int number);
-int toggle_pullup(int number);
-int test_input(int number);
-int set_input(int number);
-int clr_pullup(int number);
-int configure_input(int number);
+uint8_t set_output(uint8_t number);
+uint8_t set_pullup(uint8_t number);
+uint8_t toggle_pullup(uint8_t number);
+uint8_t test_input(uint8_t number);
+uint8_t set_input(uint8_t number);
+uint8_t clr_pullup(uint8_t number);
+uint8_t configure_input(uint8_t number);
 
 #endif
