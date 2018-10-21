@@ -8,7 +8,6 @@ Led * led_setup(int number){
   l->state = On;
   set_pullup(number);
 
-  l->mode = Keep_on;
   return l;
 }
 
@@ -32,16 +31,11 @@ int led_switch_light(Led * led){
   }
 }
 
-int led_change_mode(Led * led, Led_Mode mode){
-  led->mode = mode;
-  return 1;
-}
-
 int led_blink(Led * led, double time_ms){
   led_make_light(led);
-  _delay_ms(20);
+  _delay_ms(1000);
   led_kill_light(led);
-  _delay_ms(20);
+  _delay_ms(1000);
   return 1;
 }
 

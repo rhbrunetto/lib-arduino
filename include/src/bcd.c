@@ -78,3 +78,7 @@ void bcd_show_string(BCD * display, char * str){
     }
   }while(display->loop);
 }
+
+void bcd_free(BCD * display){
+  free(display);
+}

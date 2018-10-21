@@ -23,4 +23,6 @@ void bcd_clear(BCD * display);
 
 void bcd_set_loop(BCD * display, uint8_t loop);
 
+void bcd_free(BCD * display);
+
 #endif

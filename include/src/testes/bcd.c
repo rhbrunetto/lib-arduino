@@ -1,6 +1,4 @@
 #include "..bcd.h"
-#include <stdio.h>
-#include <util/delay.h>
   
 int main(){
   BCD * disp = bcd_setup(6, 7, 8, 9, 10, 11, 12, 13, 500);

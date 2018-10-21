@@ -1,14 +1,14 @@
 #include "button.h"
 #include <stdlib.h>
 
-Button * btn_setup(int pin_number){
+Button * btn_setup(uint8_t pin_number){
   Button * btn = (Button*)malloc(sizeof(Button));
   
   btn->pin_number = pin_number;
   set_input(pin_number);
   set_pullup(pin_number);
 
-  btn->mode = Btn_Up;
+  btn->mode = Btn_Down;
   return btn;
 }
 
@@ -18,18 +18,24 @@ void btn_register_fn(Button * b, void * function){
   b->fn = function;
 }
 
-int btn_fired(Button *b){
+void btn_set_mode(Button *b, Button_Mode mode){
+  b->mode = mode;
+}
+
+void btn_fired(Button *b){
   _delay_ms(20);
-  if (!test_input(b->pin_number)){
-    b->fn();
-    while(!test_input(b->pin_number));
+  if (test_input(b->pin_number)){
+    if (b->mode == Btn_Up){
+      b->fn();
+      while(test_input(b->pin_number));
+    }else{
+      while (test_input(b->pin_number));
+      b->fn();
+    }
   };
 }
 
-// void btn_listen(Button *btn){
-//   while(1){
-//     if(btn_pressed(btn)){
-//       (*btn->fn)();
-//     }
-//   }
-// }
+uint8_t btn_pressed(Button *b){
+  _delay_ms(20);
+  return (test_input(b->pin_number));
+}
