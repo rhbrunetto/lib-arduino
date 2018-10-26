@@ -109,11 +109,15 @@ Functions</h2></td></tr>
 <tr class="separator:aa82a3212e01fb8467139d1b8a9849ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d4a35d5070158ea22f393dd38c0ab67"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8c.html#a3d4a35d5070158ea22f393dd38c0ab67">clr_pullup</a> (uint8_t number)</td></tr>
 <tr class="separator:a3d4a35d5070158ea22f393dd38c0ab67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb6ab37bf48a91e7f36ed42c86f654f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8c.html#afdb6ab37bf48a91e7f36ed42c86f654f">digital_write</a> (uint8_t number, int value)</td></tr>
+<tr class="separator:afdb6ab37bf48a91e7f36ed42c86f654f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a31c007f58574c07c5294eb6f02826ef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpin.html">pin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8c.html#a31c007f58574c07c5294eb6f02826ef0">Pins</a> []</td></tr>
 <tr class="separator:a31c007f58574c07c5294eb6f02826ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6e4e5566166ec06748fd058d1ab360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbytes.html">bytes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8c.html#a4c6e4e5566166ec06748fd058d1ab360">Bytes</a> []</td></tr>
+<tr class="separator:a4c6e4e5566166ec06748fd058d1ab360"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3d4a35d5070158ea22f393dd38c0ab67"></a>
@@ -128,6 +132,34 @@ Variables</h2></td></tr>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdb6ab37bf48a91e7f36ed42c86f654f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb6ab37bf48a91e7f36ed42c86f654f">&#9670;&nbsp;</a></span>digital_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t digital_write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -225,6 +257,20 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a4c6e4e5566166ec06748fd058d1ab360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c6e4e5566166ec06748fd058d1ab360">&#9670;&nbsp;</a></span>Bytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structbytes.html">bytes</a> Bytes[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},</div><div class="line">    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},</div><div class="line">    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},</div><div class="line">    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0},</div><div class="line">    {0, 0, 0, 0, 0, 0, 0, 0}</div><div class="line"></div><div class="line">}</div></div><!-- fragment -->
+</div>
+</div>
 <a id="a31c007f58574c07c5294eb6f02826ef0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31c007f58574c07c5294eb6f02826ef0">&#9670;&nbsp;</a></span>Pins</h2>
 
@@ -236,7 +282,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">  {PD0, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD1, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line"></div><div class="line">  {PD2, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD3, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD4, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD5, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD6, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line">  {PD7, &amp;PORTD, &amp;DDRD, &amp;PIND},   </div><div class="line"></div><div class="line">  {PB0, &amp;PORTB, &amp;DDRB, &amp;PINB},   </div><div class="line">  {PB1, &amp;PORTB, &amp;DDRB, &amp;PINB},   </div><div class="line">  {PB2, &amp;PORTB, &amp;DDRB, &amp;PINB},   </div><div class="line">  {PB3, &amp;PORTB, &amp;DDRB, &amp;PINB},   </div><div class="line">  {PB4, &amp;PORTB, &amp;DDRB, &amp;PINB},   </div><div class="line">  {PB5, &amp;PORTB, &amp;DDRB, &amp;PINB}    </div><div class="line">}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">  {PD0, &amp;PORTD, &amp;DDRD, &amp;PIND, NULL, NULL, NULL, NULL},   </div><div class="line">  {PD1, &amp;PORTD, &amp;DDRD, &amp;PIND, NULL, NULL, NULL, NULL},   </div><div class="line"></div><div class="line">  {PD2, &amp;PORTD, &amp;DDRD, &amp;PIND, NULL, NULL, NULL, NULL},   </div><div class="line">  {PD3, &amp;PORTD, &amp;DDRD, &amp;PIND, &amp;TCCR2A, &amp;TCCR2B, &amp;OCR2A, &amp;OCR2B},   </div><div class="line">  {PD4, &amp;PORTD, &amp;DDRD, &amp;PIND, NULL, NULL, NULL, NULL},   </div><div class="line">  {PD5, &amp;PORTD, &amp;DDRD, &amp;PIND, &amp;TCCR0A, &amp;TCCR0B, &amp;OCR0A, &amp;OCR0B},   </div><div class="line">  {PD6, &amp;PORTD, &amp;DDRD, &amp;PIND, &amp;TCCR0A, &amp;TCCR0B, &amp;OCR0A, NULL},   </div><div class="line">  {PD7, &amp;PORTD, &amp;DDRD, &amp;PIND, NULL, NULL, NULL, NULL},   </div><div class="line">  {PB0, &amp;PORTB, &amp;DDRB, &amp;PINB, NULL, NULL, NULL, NULL},   </div><div class="line">  {PB1, &amp;PORTB, &amp;DDRB, &amp;PINB, &amp;TCCR1A, &amp;TCCR1B, (uint8_t*)&amp;OCR1A, NULL },   </div><div class="line">  {PB2, &amp;PORTB, &amp;DDRB, &amp;PINB, &amp;TCCR1A, &amp;TCCR1B, (uint8_t*)&amp;OCR1A, (uint8_t*)&amp;OCR1B},   </div><div class="line">  {PB3, &amp;PORTB, &amp;DDRB, &amp;PINB, &amp;TCCR2A, &amp;TCCR2B, &amp;OCR2A, NULL},   </div><div class="line">  {PB4, &amp;PORTB, &amp;DDRB, &amp;PINB, NULL, NULL, NULL, NULL},   </div><div class="line">  {PB5, &amp;PORTB, &amp;DDRB, &amp;PINB, NULL, NULL, NULL, NULL}    </div><div class="line">}</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

@@ -24,5 +24,6 @@ var searchData=
   ['button',['Button',['../structButton.html',1,'']]],
   ['button_2ec',['button.c',['../button_8c.html',1,'']]],
   ['button_2eh',['button.h',['../button_8h.html',1,'']]],
-  ['button_5fmode',['button_mode',['../button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4',1,'button_mode():&#160;button.h'],['../button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190',1,'Button_Mode():&#160;button.h']]]
+  ['button_5fmode',['Button_Mode',['../button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190',1,'Button_Mode():&#160;button.h'],['../button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4',1,'button_mode():&#160;button.h']]],
+  ['bytes',['bytes',['../structbytes.html',1,'bytes'],['../pins_8h.html#a44d17ade5c985deea23f4b5ddf9e3589',1,'Bytes():&#160;pins.c'],['../pins_8c.html#a4c6e4e5566166ec06748fd058d1ab360',1,'Bytes():&#160;pins.c']]]
 ];

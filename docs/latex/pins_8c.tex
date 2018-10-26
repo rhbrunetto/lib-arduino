@@ -15,11 +15,15 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8c_adedc899ca0b2de7281146716c21194d3}{test\+\
 uint8\+\_\+t \mbox{\hyperlink{pins_8c_aa82a3212e01fb8467139d1b8a9849ac1}{set\+\_\+input}} (uint8\+\_\+t number)
 \item 
 uint8\+\_\+t \mbox{\hyperlink{pins_8c_a3d4a35d5070158ea22f393dd38c0ab67}{clr\+\_\+pullup}} (uint8\+\_\+t number)
+\item 
+uint8\+\_\+t \mbox{\hyperlink{pins_8c_afdb6ab37bf48a91e7f36ed42c86f654f}{digital\+\_\+write}} (uint8\+\_\+t number, int value)
 \end{DoxyCompactItemize}
 \subsection*{Variables}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{structpin}{pin}} \mbox{\hyperlink{pins_8c_a31c007f58574c07c5294eb6f02826ef0}{Pins}} \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\hyperlink{structbytes}{bytes}} \mbox{\hyperlink{pins_8c_a4c6e4e5566166ec06748fd058d1ab360}{Bytes}} \mbox{[}$\,$\mbox{]}
 \end{DoxyCompactItemize}
 
 
@@ -29,6 +33,12 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8c_a3d4a35d5070158ea22f393dd38c0ab67}{clr\+\_
 \index{clr\+\_\+pullup@{clr\+\_\+pullup}!pins.\+c@{pins.\+c}}
 \subsubsection{\texorpdfstring{clr\+\_\+pullup()}{clr\_pullup()}}
 {\footnotesize\ttfamily uint8\+\_\+t clr\+\_\+pullup (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{pins_8c_afdb6ab37bf48a91e7f36ed42c86f654f}\label{pins_8c_afdb6ab37bf48a91e7f36ed42c86f654f}} 
+\index{pins.\+c@{pins.\+c}!digital\+\_\+write@{digital\+\_\+write}}
+\index{digital\+\_\+write@{digital\+\_\+write}!pins.\+c@{pins.\+c}}
+\subsubsection{\texorpdfstring{digital\+\_\+write()}{digital\_write()}}
+{\footnotesize\ttfamily uint8\+\_\+t digital\+\_\+write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{number,  }\item[{int}]{value }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{pins_8c_aa82a3212e01fb8467139d1b8a9849ac1}\label{pins_8c_aa82a3212e01fb8467139d1b8a9849ac1}} 
 \index{pins.\+c@{pins.\+c}!set\+\_\+input@{set\+\_\+input}}
@@ -63,6 +73,33 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8c_a3d4a35d5070158ea22f393dd38c0ab67}{clr\+\_
 
 
 \subsection{Variable Documentation}
+\mbox{\Hypertarget{pins_8c_a4c6e4e5566166ec06748fd058d1ab360}\label{pins_8c_a4c6e4e5566166ec06748fd058d1ab360}} 
+\index{pins.\+c@{pins.\+c}!Bytes@{Bytes}}
+\index{Bytes@{Bytes}!pins.\+c@{pins.\+c}}
+\subsubsection{\texorpdfstring{Bytes}{Bytes}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structbytes}{bytes}} Bytes\mbox{[}$\,$\mbox{]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \{}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\},}
+\DoxyCodeLine{    \{0, 0, 0, 0, 0, 0, 0, 0\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
 \mbox{\Hypertarget{pins_8c_a31c007f58574c07c5294eb6f02826ef0}\label{pins_8c_a31c007f58574c07c5294eb6f02826ef0}} 
 \index{pins.\+c@{pins.\+c}!Pins@{Pins}}
 \index{Pins@{Pins}!pins.\+c@{pins.\+c}}
@@ -72,22 +109,21 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8c_a3d4a35d5070158ea22f393dd38c0ab67}{clr\+\_
 {\bfseries Initial value\+:}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{= \{}
-\DoxyCodeLine{  \{PD0, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD1, \&PORTD, \&DDRD, \&PIND\},   }
+\DoxyCodeLine{  \{PD0, \&PORTD, \&DDRD, \&PIND, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PD1, \&PORTD, \&DDRD, \&PIND, NULL, NULL, NULL, NULL\},   }
 \DoxyCodeLine{}
-\DoxyCodeLine{  \{PD2, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD3, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD4, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD5, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD6, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{  \{PD7, \&PORTD, \&DDRD, \&PIND\},   }
-\DoxyCodeLine{}
-\DoxyCodeLine{  \{PB0, \&PORTB, \&DDRB, \&PINB\},   }
-\DoxyCodeLine{  \{PB1, \&PORTB, \&DDRB, \&PINB\},   }
-\DoxyCodeLine{  \{PB2, \&PORTB, \&DDRB, \&PINB\},   }
-\DoxyCodeLine{  \{PB3, \&PORTB, \&DDRB, \&PINB\},   }
-\DoxyCodeLine{  \{PB4, \&PORTB, \&DDRB, \&PINB\},   }
-\DoxyCodeLine{  \{PB5, \&PORTB, \&DDRB, \&PINB\}    }
+\DoxyCodeLine{  \{PD2, \&PORTD, \&DDRD, \&PIND, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PD3, \&PORTD, \&DDRD, \&PIND, \&TCCR2A, \&TCCR2B, \&OCR2A, \&OCR2B\},   }
+\DoxyCodeLine{  \{PD4, \&PORTD, \&DDRD, \&PIND, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PD5, \&PORTD, \&DDRD, \&PIND, \&TCCR0A, \&TCCR0B, \&OCR0A, \&OCR0B\},   }
+\DoxyCodeLine{  \{PD6, \&PORTD, \&DDRD, \&PIND, \&TCCR0A, \&TCCR0B, \&OCR0A, NULL\},   }
+\DoxyCodeLine{  \{PD7, \&PORTD, \&DDRD, \&PIND, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PB0, \&PORTB, \&DDRB, \&PINB, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PB1, \&PORTB, \&DDRB, \&PINB, \&TCCR1A, \&TCCR1B, (uint8\_t*)\&OCR1A, NULL \},   }
+\DoxyCodeLine{  \{PB2, \&PORTB, \&DDRB, \&PINB, \&TCCR1A, \&TCCR1B, (uint8\_t*)\&OCR1A, (uint8\_t*)\&OCR1B\},   }
+\DoxyCodeLine{  \{PB3, \&PORTB, \&DDRB, \&PINB, \&TCCR2A, \&TCCR2B, \&OCR2A, NULL\},   }
+\DoxyCodeLine{  \{PB4, \&PORTB, \&DDRB, \&PINB, NULL, NULL, NULL, NULL\},   }
+\DoxyCodeLine{  \{PB5, \&PORTB, \&DDRB, \&PINB, NULL, NULL, NULL, NULL\}    }
 \DoxyCodeLine{\}}
 
 \end{DoxyCode}

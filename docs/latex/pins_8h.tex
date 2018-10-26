@@ -9,11 +9,17 @@
 \begin{DoxyCompactItemize}
 \item 
 struct \mbox{\hyperlink{structpin}{pin}}
+\item 
+struct \mbox{\hyperlink{structbytes}{bytes}}
 \end{DoxyCompactItemize}
 \subsection*{Macros}
 \begin{DoxyCompactItemize}
 \item 
 \#define \mbox{\hyperlink{pins_8h_a43bafb28b29491ec7f871319b5a3b2f8}{F\+\_\+\+C\+PU}}~16000000\+UL
+\item 
+\#define \mbox{\hyperlink{pins_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}{H\+I\+GH}}~1
+\item 
+\#define \mbox{\hyperlink{pins_8h_ab811d8c6ff3a505312d3276590444289}{L\+OW}}~0
 \end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
@@ -31,6 +37,15 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8h_aa82a3212e01fb8467139d1b8a9849ac1}{set\+\_
 uint8\+\_\+t \mbox{\hyperlink{pins_8h_a3d4a35d5070158ea22f393dd38c0ab67}{clr\+\_\+pullup}} (uint8\+\_\+t number)
 \item 
 uint8\+\_\+t \mbox{\hyperlink{pins_8h_afbf214fbd2c80d1b441c457d84c08193}{configure\+\_\+input}} (uint8\+\_\+t number)
+\item 
+uint8\+\_\+t \mbox{\hyperlink{pins_8h_afdb6ab37bf48a91e7f36ed42c86f654f}{digital\+\_\+write}} (uint8\+\_\+t number, int value)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structpin}{pin}} \mbox{\hyperlink{pins_8h_ac707a5bbdbd5b047f49596caadf4de39}{Pins}} \mbox{[}14\mbox{]}
+\item 
+\mbox{\hyperlink{structbytes}{bytes}} \mbox{\hyperlink{pins_8h_a44d17ade5c985deea23f4b5ddf9e3589}{Bytes}} \mbox{[}14\mbox{]}
 \end{DoxyCompactItemize}
 
 
@@ -40,6 +55,18 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8h_afbf214fbd2c80d1b441c457d84c08193}{configu
 \index{F\+\_\+\+C\+PU@{F\+\_\+\+C\+PU}!pins.\+h@{pins.\+h}}
 \subsubsection{\texorpdfstring{F\+\_\+\+C\+PU}{F\_CPU}}
 {\footnotesize\ttfamily \#define F\+\_\+\+C\+PU~16000000\+UL}
+
+\mbox{\Hypertarget{pins_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}\label{pins_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}} 
+\index{pins.\+h@{pins.\+h}!H\+I\+GH@{H\+I\+GH}}
+\index{H\+I\+GH@{H\+I\+GH}!pins.\+h@{pins.\+h}}
+\subsubsection{\texorpdfstring{H\+I\+GH}{HIGH}}
+{\footnotesize\ttfamily \#define H\+I\+GH~1}
+
+\mbox{\Hypertarget{pins_8h_ab811d8c6ff3a505312d3276590444289}\label{pins_8h_ab811d8c6ff3a505312d3276590444289}} 
+\index{pins.\+h@{pins.\+h}!L\+OW@{L\+OW}}
+\index{L\+OW@{L\+OW}!pins.\+h@{pins.\+h}}
+\subsubsection{\texorpdfstring{L\+OW}{LOW}}
+{\footnotesize\ttfamily \#define L\+OW~0}
 
 
 
@@ -55,6 +82,12 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8h_afbf214fbd2c80d1b441c457d84c08193}{configu
 \index{configure\+\_\+input@{configure\+\_\+input}!pins.\+h@{pins.\+h}}
 \subsubsection{\texorpdfstring{configure\+\_\+input()}{configure\_input()}}
 {\footnotesize\ttfamily uint8\+\_\+t configure\+\_\+input (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{pins_8h_afdb6ab37bf48a91e7f36ed42c86f654f}\label{pins_8h_afdb6ab37bf48a91e7f36ed42c86f654f}} 
+\index{pins.\+h@{pins.\+h}!digital\+\_\+write@{digital\+\_\+write}}
+\index{digital\+\_\+write@{digital\+\_\+write}!pins.\+h@{pins.\+h}}
+\subsubsection{\texorpdfstring{digital\+\_\+write()}{digital\_write()}}
+{\footnotesize\ttfamily uint8\+\_\+t digital\+\_\+write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{number,  }\item[{int}]{value }\end{DoxyParamCaption})}
 
 \mbox{\Hypertarget{pins_8h_aa82a3212e01fb8467139d1b8a9849ac1}\label{pins_8h_aa82a3212e01fb8467139d1b8a9849ac1}} 
 \index{pins.\+h@{pins.\+h}!set\+\_\+input@{set\+\_\+input}}
@@ -85,4 +118,19 @@ uint8\+\_\+t \mbox{\hyperlink{pins_8h_afbf214fbd2c80d1b441c457d84c08193}{configu
 \index{toggle\+\_\+pullup@{toggle\+\_\+pullup}!pins.\+h@{pins.\+h}}
 \subsubsection{\texorpdfstring{toggle\+\_\+pullup()}{toggle\_pullup()}}
 {\footnotesize\ttfamily uint8\+\_\+t toggle\+\_\+pullup (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{number }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{pins_8h_a44d17ade5c985deea23f4b5ddf9e3589}\label{pins_8h_a44d17ade5c985deea23f4b5ddf9e3589}} 
+\index{pins.\+h@{pins.\+h}!Bytes@{Bytes}}
+\index{Bytes@{Bytes}!pins.\+h@{pins.\+h}}
+\subsubsection{\texorpdfstring{Bytes}{Bytes}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structbytes}{bytes}} Bytes\mbox{[}14\mbox{]}}
+
+\mbox{\Hypertarget{pins_8h_ac707a5bbdbd5b047f49596caadf4de39}\label{pins_8h_ac707a5bbdbd5b047f49596caadf4de39}} 
+\index{pins.\+h@{pins.\+h}!Pins@{Pins}}
+\index{Pins@{Pins}!pins.\+h@{pins.\+h}}
+\subsubsection{\texorpdfstring{Pins}{Pins}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structpin}{pin}} Pins\mbox{[}14\mbox{]}}
 

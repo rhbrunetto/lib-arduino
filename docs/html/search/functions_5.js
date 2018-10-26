@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['set_5finput',['set_input',['../pins_8h.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c'],['../pins_8c.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c']]],
-  ['set_5foutput',['set_output',['../pins_8h.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c'],['../pins_8c.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c']]],
-  ['set_5fpullup',['set_pullup',['../pins_8h.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c'],['../pins_8c.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c']]]
+  ['main',['main',['../teste_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;teste.c'],['../testes_2bcd_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;bcd.c'],['../btn1_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;btn1.c'],['../btn2_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;btn2.c'],['../testes_2led_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;led.c'],['../sqrwave_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;sqrwave.c']]]
 ];

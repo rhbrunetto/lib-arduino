@@ -89,7 +89,8 @@ $(document).ready(function(){initNavTree('pins_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">pins.h File Reference</div>  </div>
 </div><!--header-->
@@ -106,11 +107,17 @@ $(document).ready(function(){initNavTree('pins_8h.html','');});
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpin.html">pin</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbytes.html">bytes</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a43bafb28b29491ec7f871319b5a3b2f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#a43bafb28b29491ec7f871319b5a3b2f8">F_CPU</a>&#160;&#160;&#160;16000000UL</td></tr>
 <tr class="separator:a43bafb28b29491ec7f871319b5a3b2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb885982ff66a2e0a0a45a8ee9c35e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#a5bb885982ff66a2e0a0a45a8ee9c35e2">HIGH</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a5bb885982ff66a2e0a0a45a8ee9c35e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab811d8c6ff3a505312d3276590444289"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#ab811d8c6ff3a505312d3276590444289">LOW</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ab811d8c6ff3a505312d3276590444289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -128,6 +135,15 @@ Functions</h2></td></tr>
 <tr class="separator:a3d4a35d5070158ea22f393dd38c0ab67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf214fbd2c80d1b441c457d84c08193"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#afbf214fbd2c80d1b441c457d84c08193">configure_input</a> (uint8_t number)</td></tr>
 <tr class="separator:afbf214fbd2c80d1b441c457d84c08193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb6ab37bf48a91e7f36ed42c86f654f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#afdb6ab37bf48a91e7f36ed42c86f654f">digital_write</a> (uint8_t number, int value)</td></tr>
+<tr class="separator:afdb6ab37bf48a91e7f36ed42c86f654f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac707a5bbdbd5b047f49596caadf4de39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpin.html">pin</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#ac707a5bbdbd5b047f49596caadf4de39">Pins</a> [14]</td></tr>
+<tr class="separator:ac707a5bbdbd5b047f49596caadf4de39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d17ade5c985deea23f4b5ddf9e3589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structbytes.html">bytes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pins_8h.html#a44d17ade5c985deea23f4b5ddf9e3589">Bytes</a> [14]</td></tr>
+<tr class="separator:a44d17ade5c985deea23f4b5ddf9e3589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a43bafb28b29491ec7f871319b5a3b2f8"></a>
@@ -138,6 +154,34 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define F_CPU&#160;&#160;&#160;16000000UL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bb885982ff66a2e0a0a45a8ee9c35e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb885982ff66a2e0a0a45a8ee9c35e2">&#9670;&nbsp;</a></span>HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HIGH&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab811d8c6ff3a505312d3276590444289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab811d8c6ff3a505312d3276590444289">&#9670;&nbsp;</a></span>LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOW&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -175,6 +219,34 @@ Functions</h2></td></tr>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdb6ab37bf48a91e7f36ed42c86f654f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb6ab37bf48a91e7f36ed42c86f654f">&#9670;&nbsp;</a></span>digital_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t digital_write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,6 +337,35 @@ Functions</h2></td></tr>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a44d17ade5c985deea23f4b5ddf9e3589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d17ade5c985deea23f4b5ddf9e3589">&#9670;&nbsp;</a></span>Bytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structbytes.html">bytes</a> Bytes[14]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac707a5bbdbd5b047f49596caadf4de39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac707a5bbdbd5b047f49596caadf4de39">&#9670;&nbsp;</a></span>Pins</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structpin.html">pin</a> Pins[14]</td>
         </tr>
       </table>
 </div><div class="memdoc">

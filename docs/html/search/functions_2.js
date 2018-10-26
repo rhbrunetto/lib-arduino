@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['execute',['execute',['../teste_8c.html#a61af3e60b94ae3e748f6fbac1e794af7',1,'execute():&#160;teste.c'],['../btn1_8c.html#a61af3e60b94ae3e748f6fbac1e794af7',1,'execute():&#160;btn1.c'],['../btn2_8c.html#a61af3e60b94ae3e748f6fbac1e794af7',1,'execute():&#160;btn2.c']]]
+  ['digital_5fwrite',['digital_write',['../pins_8h.html#afdb6ab37bf48a91e7f36ed42c86f654f',1,'digital_write(uint8_t number, int value):&#160;pins.c'],['../pins_8c.html#afdb6ab37bf48a91e7f36ed42c86f654f',1,'digital_write(uint8_t number, int value):&#160;pins.c']]]
 ];

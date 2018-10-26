@@ -6,5 +6,7 @@ var files_dup =
     [ "button.c", "button_8c.html", "button_8c" ],
     [ "led.c", "led_8c.html", "led_8c" ],
     [ "pins.c", "pins_8c.html", "pins_8c" ],
+    [ "pwm.c", "pwm_8c.html", "pwm_8c" ],
+    [ "pwm.h", "pwm_8h.html", "pwm_8h" ],
     [ "teste.c", "teste_8c.html", "teste_8c" ]
 ];
