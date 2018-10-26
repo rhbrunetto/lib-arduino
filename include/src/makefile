@@ -9,7 +9,7 @@ MODELO=m328p
 PLACA=arduino
 CPU=16000000UL
 
-DEP=button.c led.c pins.c bcd.c pwm.c
+DEP=button.c led.c pins.c bcd.c pwm.c uart.c supersonic.c
 
 all: clean
 

@@ -35,7 +35,9 @@ typedef struct{
     volatile uint8_t CS0;
     volatile uint8_t CS1;
     volatile uint8_t CS2;
+    volatile uint8_t WGM3;
 } bytes;
+
 
 extern pin Pins[14];
 extern bytes Bytes[14];

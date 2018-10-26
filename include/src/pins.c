@@ -19,20 +19,20 @@ pin Pins[] = {
 };
 
 bytes Bytes[]= {
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {WGM20, WGM21, WGM22, COM2B0, COM2B1, CS20, CS21, CS22, 0},
     {0, 0, 0, 0, 0, 0, 0, 0},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},
-    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},
-    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02},
-    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02},
-    {0, 0, 0, 0, 0, 0, 0, 0},
-    {0, 0, 0, 0, 0, 0, 0, 0}
+    {WGM00, WGM01, WGM02, COM0B0, COM0B1, CS00, CS01, CS02, 0},
+    {WGM00, WGM01, WGM02, COM0A0, COM0A1, CS00, CS01, CS02, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {WGM10, WGM11, WGM12, COM1A0, COM1A1, CS10, CS11, CS12, WGM13},
+    {WGM10, WGM11, WGM12, COM1B0, COM1B1, CS10, CS11, CS12, WGM13},
+    {WGM20, WGM21, WGM22, COM2A0, COM2A1, CS20, CS21, CS22, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0},
+    {0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 };
 
