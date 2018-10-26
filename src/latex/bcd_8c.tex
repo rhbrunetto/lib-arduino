@@ -1,0 +1,66 @@
+\hypertarget{bcd_8c}{}\section{bcd.\+c File Reference}
+\label{bcd_8c}\index{bcd.\+c@{bcd.\+c}}
+{\ttfamily \#include \char`\"{}bcd.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}bcd\+\_\+seven.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+B\+CD $\ast$ \mbox{\hyperlink{bcd_8c_a36a6644def189986a2751d20a27e4467}{bcd\+\_\+setup}} (uint8\+\_\+t a, uint8\+\_\+t b, uint8\+\_\+t c, uint8\+\_\+t d, uint8\+\_\+t e, uint8\+\_\+t f, uint8\+\_\+t g, uint8\+\_\+t dp, double delay)
+\item 
+void \mbox{\hyperlink{bcd_8c_a15ede2f0afc6b7bd9581edf83d5c8477}{bcd\+\_\+show\+\_\+char}} (B\+CD $\ast$display, char c)
+\item 
+void \mbox{\hyperlink{bcd_8c_ae5a4c2282b5d2a6199f74d86d8988f93}{bcd\+\_\+set\+\_\+loop}} (B\+CD $\ast$display, uint8\+\_\+t loop)
+\item 
+void \mbox{\hyperlink{bcd_8c_ac3af4c44973bb937ffdb4dc94239c650}{bcd\+\_\+delay}} (B\+CD $\ast$display)
+\item 
+void \mbox{\hyperlink{bcd_8c_ac488206ee04be4b47518367cd7af382a}{bcd\+\_\+clear}} (B\+CD $\ast$display)
+\item 
+void \mbox{\hyperlink{bcd_8c_a1efafe46c108ee48c3a179473bc85165}{bcd\+\_\+show\+\_\+string}} (B\+CD $\ast$display, char $\ast$str)
+\item 
+void \mbox{\hyperlink{bcd_8c_a9e62f40aca9b36145ccc3a567d10a214}{bcd\+\_\+free}} (B\+CD $\ast$display)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{bcd_8c_ac488206ee04be4b47518367cd7af382a}\label{bcd_8c_ac488206ee04be4b47518367cd7af382a}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+clear@{bcd\+\_\+clear}}
+\index{bcd\+\_\+clear@{bcd\+\_\+clear}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+clear()}{bcd\_clear()}}
+{\footnotesize\ttfamily void bcd\+\_\+clear (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_ac3af4c44973bb937ffdb4dc94239c650}\label{bcd_8c_ac3af4c44973bb937ffdb4dc94239c650}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+delay@{bcd\+\_\+delay}}
+\index{bcd\+\_\+delay@{bcd\+\_\+delay}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+delay()}{bcd\_delay()}}
+{\footnotesize\ttfamily void bcd\+\_\+delay (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_a9e62f40aca9b36145ccc3a567d10a214}\label{bcd_8c_a9e62f40aca9b36145ccc3a567d10a214}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+free@{bcd\+\_\+free}}
+\index{bcd\+\_\+free@{bcd\+\_\+free}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+free()}{bcd\_free()}}
+{\footnotesize\ttfamily void bcd\+\_\+free (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_ae5a4c2282b5d2a6199f74d86d8988f93}\label{bcd_8c_ae5a4c2282b5d2a6199f74d86d8988f93}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+set\+\_\+loop@{bcd\+\_\+set\+\_\+loop}}
+\index{bcd\+\_\+set\+\_\+loop@{bcd\+\_\+set\+\_\+loop}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+set\+\_\+loop()}{bcd\_set\_loop()}}
+{\footnotesize\ttfamily void bcd\+\_\+set\+\_\+loop (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display,  }\item[{uint8\+\_\+t}]{loop }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_a36a6644def189986a2751d20a27e4467}\label{bcd_8c_a36a6644def189986a2751d20a27e4467}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+setup@{bcd\+\_\+setup}}
+\index{bcd\+\_\+setup@{bcd\+\_\+setup}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+setup()}{bcd\_setup()}}
+{\footnotesize\ttfamily B\+CD$\ast$ bcd\+\_\+setup (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{a,  }\item[{uint8\+\_\+t}]{b,  }\item[{uint8\+\_\+t}]{c,  }\item[{uint8\+\_\+t}]{d,  }\item[{uint8\+\_\+t}]{e,  }\item[{uint8\+\_\+t}]{f,  }\item[{uint8\+\_\+t}]{g,  }\item[{uint8\+\_\+t}]{dp,  }\item[{double}]{delay }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_a15ede2f0afc6b7bd9581edf83d5c8477}\label{bcd_8c_a15ede2f0afc6b7bd9581edf83d5c8477}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+show\+\_\+char@{bcd\+\_\+show\+\_\+char}}
+\index{bcd\+\_\+show\+\_\+char@{bcd\+\_\+show\+\_\+char}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+show\+\_\+char()}{bcd\_show\_char()}}
+{\footnotesize\ttfamily void bcd\+\_\+show\+\_\+char (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display,  }\item[{char}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{bcd_8c_a1efafe46c108ee48c3a179473bc85165}\label{bcd_8c_a1efafe46c108ee48c3a179473bc85165}} 
+\index{bcd.\+c@{bcd.\+c}!bcd\+\_\+show\+\_\+string@{bcd\+\_\+show\+\_\+string}}
+\index{bcd\+\_\+show\+\_\+string@{bcd\+\_\+show\+\_\+string}!bcd.\+c@{bcd.\+c}}
+\subsubsection{\texorpdfstring{bcd\+\_\+show\+\_\+string()}{bcd\_show\_string()}}
+{\footnotesize\ttfamily void bcd\+\_\+show\+\_\+string (\begin{DoxyParamCaption}\item[{B\+CD $\ast$}]{display,  }\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+

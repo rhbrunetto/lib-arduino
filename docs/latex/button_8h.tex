@@ -1,0 +1,94 @@
+\hypertarget{button_8h}{}\section{include/button.h File Reference}
+\label{button_8h}\index{include/button.\+h@{include/button.\+h}}
+{\ttfamily \#include \char`\"{}pins.\+h\char`\"{}}\newline
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structButton}{Button}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}{button\+\_\+mode}} \mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}{button\+\_\+mode}} \{ \mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a7b45723d296c6c8b259548907ee93a3f}{Btn\+\_\+\+Up}} = 0, 
+\mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358}{Btn\+\_\+\+Down}} = 1
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structButton}{Button}} $\ast$ \mbox{\hyperlink{button_8h_a2b25e08118cddf90348a0ddfb019cfcf}{btn\+\_\+setup}} (uint8\+\_\+t pin\+\_\+number)
+\item 
+void \mbox{\hyperlink{button_8h_add8e92ca734550463d36e2aedcd55062}{btn\+\_\+register\+\_\+fn}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b, void $\ast$function)
+\item 
+void \mbox{\hyperlink{button_8h_a94272cf219c43049220e9964c4042a92}{btn\+\_\+set\+\_\+mode}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b, \mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}} mode)
+\item 
+void \mbox{\hyperlink{button_8h_aa7618afbabcf8b8ba3f7a69dec504197}{btn\+\_\+fired}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b)
+\item 
+uint8\+\_\+t \mbox{\hyperlink{button_8h_af0ce243e3702bc0423cd5d39afa75251}{btn\+\_\+pressed}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}\label{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}} 
+\index{button.\+h@{button.\+h}!Button\+\_\+\+Mode@{Button\+\_\+\+Mode}}
+\index{Button\+\_\+\+Mode@{Button\+\_\+\+Mode}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{Button\+\_\+\+Mode}{Button\_Mode}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}{button\+\_\+mode}}  \mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}}}
+
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}\label{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}} 
+\index{button.\+h@{button.\+h}!button\+\_\+mode@{button\+\_\+mode}}
+\index{button\+\_\+mode@{button\+\_\+mode}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{button\+\_\+mode}{button\_mode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{button_8h_a623a52dd1d9943610d07b12f7f3b37b4}{button\+\_\+mode}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Btn\+\_\+\+Up@{Btn\+\_\+\+Up}!button.\+h@{button.\+h}}\index{button.\+h@{button.\+h}!Btn\+\_\+\+Up@{Btn\+\_\+\+Up}}}\mbox{\Hypertarget{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a7b45723d296c6c8b259548907ee93a3f}\label{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a7b45723d296c6c8b259548907ee93a3f}} 
+Btn\+\_\+\+Up&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Btn\+\_\+\+Down@{Btn\+\_\+\+Down}!button.\+h@{button.\+h}}\index{button.\+h@{button.\+h}!Btn\+\_\+\+Down@{Btn\+\_\+\+Down}}}\mbox{\Hypertarget{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358}\label{button_8h_a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358}} 
+Btn\+\_\+\+Down&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{button_8h_aa7618afbabcf8b8ba3f7a69dec504197}\label{button_8h_aa7618afbabcf8b8ba3f7a69dec504197}} 
+\index{button.\+h@{button.\+h}!btn\+\_\+fired@{btn\+\_\+fired}}
+\index{btn\+\_\+fired@{btn\+\_\+fired}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{btn\+\_\+fired()}{btn\_fired()}}
+{\footnotesize\ttfamily void btn\+\_\+fired (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{button_8h_af0ce243e3702bc0423cd5d39afa75251}\label{button_8h_af0ce243e3702bc0423cd5d39afa75251}} 
+\index{button.\+h@{button.\+h}!btn\+\_\+pressed@{btn\+\_\+pressed}}
+\index{btn\+\_\+pressed@{btn\+\_\+pressed}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{btn\+\_\+pressed()}{btn\_pressed()}}
+{\footnotesize\ttfamily uint8\+\_\+t btn\+\_\+pressed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{button_8h_add8e92ca734550463d36e2aedcd55062}\label{button_8h_add8e92ca734550463d36e2aedcd55062}} 
+\index{button.\+h@{button.\+h}!btn\+\_\+register\+\_\+fn@{btn\+\_\+register\+\_\+fn}}
+\index{btn\+\_\+register\+\_\+fn@{btn\+\_\+register\+\_\+fn}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{btn\+\_\+register\+\_\+fn()}{btn\_register\_fn()}}
+{\footnotesize\ttfamily void btn\+\_\+register\+\_\+fn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b,  }\item[{void $\ast$}]{function }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{button_8h_a94272cf219c43049220e9964c4042a92}\label{button_8h_a94272cf219c43049220e9964c4042a92}} 
+\index{button.\+h@{button.\+h}!btn\+\_\+set\+\_\+mode@{btn\+\_\+set\+\_\+mode}}
+\index{btn\+\_\+set\+\_\+mode@{btn\+\_\+set\+\_\+mode}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{btn\+\_\+set\+\_\+mode()}{btn\_set\_mode()}}
+{\footnotesize\ttfamily void btn\+\_\+set\+\_\+mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b,  }\item[{\mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}}}]{mode }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{button_8h_a2b25e08118cddf90348a0ddfb019cfcf}\label{button_8h_a2b25e08118cddf90348a0ddfb019cfcf}} 
+\index{button.\+h@{button.\+h}!btn\+\_\+setup@{btn\+\_\+setup}}
+\index{btn\+\_\+setup@{btn\+\_\+setup}!button.\+h@{button.\+h}}
+\subsubsection{\texorpdfstring{btn\+\_\+setup()}{btn\_setup()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structButton}{Button}}$\ast$ btn\+\_\+setup (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{pin\+\_\+number }\end{DoxyParamCaption})}
+
