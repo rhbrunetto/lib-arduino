@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['set_5finput',['set_input',['../pins_8h.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c'],['../pins_8c.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c']]],
+  ['set_5foutput',['set_output',['../pins_8h.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c'],['../pins_8c.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c']]],
+  ['set_5fpullup',['set_pullup',['../pins_8h.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c'],['../pins_8c.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c']]]
+];
