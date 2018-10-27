@@ -1,1 +1,53 @@
-Library to handle Arduino basic functions 
+Biblioteca para utilização de módulos básicos para Arduino
+
+\subsection*{Introdução}
+
+Biblioteca desenvolvida como primeiro trabalho da disciplina de Sistemas Digitais, curso Ciência da Computação pela Universidade Estadual de Maringá. O trabalho consiste em uma bilblioteca para integração com os seguintes módulos para o microcontrolador Arduino\+:
+
+
+\begin{DoxyItemize}
+\item Manipulação dos pinos E/S
+\item Geração de ondas
+\item Delay variável
+\item Interface com L\+ED
+\item Interface com botão
+\item Interface com Display de 7-\/segmentos
+\item Sensor de distância
+\end{DoxyItemize}
+
+\subsection*{Requisitos}
+
+A biblioteca foi desenvolvida para ambiente Linux, chip alvo Atmega328p. As dependências\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{avrdude}
+\DoxyCodeLine{gcc-avr}
+\end{DoxyCode}
+
+
+\subsection*{Utilização}
+
+Crie um arquivo fonte {\itshape main.\+c} no diretorio {\itshape src/exec}, em seguida\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make}
+\end{DoxyCode}
+
+
+Para utilizar a biblioteca basta incluir as arquivos header. Ex\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\#include "pins.h"}
+\end{DoxyCode}
+
+
+\subsection*{Documentação}
+
+A documentação está disponível em \href{doc/latex/refman.pdf}\texttt{ doc/latex/refman.\+pdf}.
+
+\subsection*{Autores}
+
+Ricardo Henrique Brunetto ra94182
+
+Thiago Kira ra78750 

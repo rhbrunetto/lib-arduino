@@ -1,0 +1,654 @@
+\begin{theindex}
+
+  \item {\+\_\+\+D\+DR}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+O\+C\+RA}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+O\+C\+RB}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+P\+IN}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+P\+O\+RT}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+T\+C\+CA}
+    \subitem {Pin}, \hyperpage{14}
+  \item {\+\_\+\+T\+C\+CB}
+    \subitem {Pin}, \hyperpage{15}
+
+  \indexspace
+
+  \item {a}
+    \subitem {B\+CD}, \hyperpage{8}
+
+  \indexspace
+
+  \item {b}
+    \subitem {B\+CD}, \hyperpage{8}
+  \item {B\+A\+UD}
+    \subitem {uart.\+h}, \hyperpage{57}
+  \item {B\+CD}, \hyperpage{7}
+    \subitem {a}, \hyperpage{8}
+    \subitem {b}, \hyperpage{8}
+    \subitem {c}, \hyperpage{8}
+    \subitem {d}, \hyperpage{8}
+    \subitem {delay}, \hyperpage{8}
+    \subitem {dp}, \hyperpage{8}
+    \subitem {e}, \hyperpage{9}
+    \subitem {f}, \hyperpage{9}
+    \subitem {g}, \hyperpage{9}
+    \subitem {loop}, \hyperpage{9}
+  \item {bcd.\+c}
+    \subitem {bcd\+\_\+clear}, \hyperpage{17}
+    \subitem {bcd\+\_\+delay}, \hyperpage{18}
+    \subitem {bcd\+\_\+free}, \hyperpage{18}
+    \subitem {bcd\+\_\+set\+\_\+loop}, \hyperpage{18}
+    \subitem {bcd\+\_\+setup}, \hyperpage{18}
+    \subitem {bcd\+\_\+show\+\_\+char}, \hyperpage{19}
+    \subitem {bcd\+\_\+show\+\_\+string}, \hyperpage{19}
+  \item {bcd.\+h}
+    \subitem {bcd\+\_\+clear}, \hyperpage{24}
+    \subitem {bcd\+\_\+delay}, \hyperpage{24}
+    \subitem {bcd\+\_\+free}, \hyperpage{24}
+    \subitem {bcd\+\_\+set\+\_\+loop}, \hyperpage{25}
+    \subitem {bcd\+\_\+setup}, \hyperpage{25}
+    \subitem {bcd\+\_\+show\+\_\+char}, \hyperpage{26}
+    \subitem {bcd\+\_\+show\+\_\+string}, \hyperpage{26}
+  \item {bcd\+\_\+clear}
+    \subitem {bcd.\+c}, \hyperpage{17}
+    \subitem {bcd.\+h}, \hyperpage{24}
+  \item {bcd\+\_\+delay}
+    \subitem {bcd.\+c}, \hyperpage{18}
+    \subitem {bcd.\+h}, \hyperpage{24}
+  \item {bcd\+\_\+free}
+    \subitem {bcd.\+c}, \hyperpage{18}
+    \subitem {bcd.\+h}, \hyperpage{24}
+  \item {bcd\+\_\+set\+\_\+loop}
+    \subitem {bcd.\+c}, \hyperpage{18}
+    \subitem {bcd.\+h}, \hyperpage{25}
+  \item {bcd\+\_\+setup}
+    \subitem {bcd.\+c}, \hyperpage{18}
+    \subitem {bcd.\+h}, \hyperpage{25}
+  \item {bcd\+\_\+seven.\+h}
+    \subitem {rep\+\_\+a}, \hyperpage{29}
+    \subitem {rep\+\_\+b}, \hyperpage{30}
+    \subitem {rep\+\_\+c}, \hyperpage{30}
+    \subitem {rep\+\_\+d}, \hyperpage{30}
+    \subitem {rep\+\_\+dp}, \hyperpage{30}
+    \subitem {rep\+\_\+e}, \hyperpage{30}
+    \subitem {rep\+\_\+f}, \hyperpage{30}
+    \subitem {rep\+\_\+g}, \hyperpage{31}
+    \subitem {Seven\+Segment\+A\+S\+C\+II}, \hyperpage{31}
+    \subitem {sseg\+\_\+0}, \hyperpage{31}
+    \subitem {sseg\+\_\+1}, \hyperpage{31}
+    \subitem {sseg\+\_\+2}, \hyperpage{31}
+    \subitem {sseg\+\_\+3}, \hyperpage{32}
+    \subitem {sseg\+\_\+4}, \hyperpage{32}
+    \subitem {sseg\+\_\+5}, \hyperpage{32}
+    \subitem {sseg\+\_\+6}, \hyperpage{32}
+    \subitem {sseg\+\_\+7}, \hyperpage{32}
+    \subitem {sseg\+\_\+8}, \hyperpage{32}
+    \subitem {sseg\+\_\+9}, \hyperpage{33}
+    \subitem {sseg\+\_\+A}, \hyperpage{33}
+    \subitem {sseg\+\_\+a}, \hyperpage{33}
+    \subitem {sseg\+\_\+B}, \hyperpage{33}
+    \subitem {sseg\+\_\+b}, \hyperpage{33}
+    \subitem {sseg\+\_\+C}, \hyperpage{33}
+    \subitem {sseg\+\_\+c}, \hyperpage{34}
+    \subitem {sseg\+\_\+D}, \hyperpage{34}
+    \subitem {sseg\+\_\+d}, \hyperpage{34}
+    \subitem {sseg\+\_\+E}, \hyperpage{34}
+    \subitem {sseg\+\_\+e}, \hyperpage{34}
+    \subitem {sseg\+\_\+F}, \hyperpage{34}
+    \subitem {sseg\+\_\+f}, \hyperpage{35}
+    \subitem {sseg\+\_\+G}, \hyperpage{35}
+    \subitem {sseg\+\_\+g}, \hyperpage{35}
+    \subitem {sseg\+\_\+H}, \hyperpage{35}
+    \subitem {sseg\+\_\+h}, \hyperpage{35}
+    \subitem {sseg\+\_\+I}, \hyperpage{35}
+    \subitem {sseg\+\_\+i}, \hyperpage{36}
+    \subitem {sseg\+\_\+J}, \hyperpage{36}
+    \subitem {sseg\+\_\+j}, \hyperpage{36}
+    \subitem {sseg\+\_\+K}, \hyperpage{36}
+    \subitem {sseg\+\_\+k}, \hyperpage{36}
+    \subitem {sseg\+\_\+L}, \hyperpage{36}
+    \subitem {sseg\+\_\+l}, \hyperpage{37}
+    \subitem {sseg\+\_\+M}, \hyperpage{37}
+    \subitem {sseg\+\_\+m}, \hyperpage{37}
+    \subitem {sseg\+\_\+N}, \hyperpage{37}
+    \subitem {sseg\+\_\+n}, \hyperpage{37}
+    \subitem {sseg\+\_\+O}, \hyperpage{37}
+    \subitem {sseg\+\_\+o}, \hyperpage{38}
+    \subitem {sseg\+\_\+P}, \hyperpage{38}
+    \subitem {sseg\+\_\+p}, \hyperpage{38}
+    \subitem {sseg\+\_\+Q}, \hyperpage{38}
+    \subitem {sseg\+\_\+q}, \hyperpage{38}
+    \subitem {sseg\+\_\+R}, \hyperpage{38}
+    \subitem {sseg\+\_\+r}, \hyperpage{39}
+    \subitem {sseg\+\_\+S}, \hyperpage{39}
+    \subitem {sseg\+\_\+s}, \hyperpage{39}
+    \subitem {sseg\+\_\+T}, \hyperpage{39}
+    \subitem {sseg\+\_\+t}, \hyperpage{39}
+    \subitem {sseg\+\_\+U}, \hyperpage{39}
+    \subitem {sseg\+\_\+u}, \hyperpage{40}
+    \subitem {sseg\+\_\+V}, \hyperpage{40}
+    \subitem {sseg\+\_\+v}, \hyperpage{40}
+    \subitem {sseg\+\_\+W}, \hyperpage{40}
+    \subitem {sseg\+\_\+w}, \hyperpage{40}
+    \subitem {sseg\+\_\+X}, \hyperpage{40}
+    \subitem {sseg\+\_\+x}, \hyperpage{41}
+    \subitem {sseg\+\_\+Y}, \hyperpage{41}
+    \subitem {sseg\+\_\+y}, \hyperpage{41}
+    \subitem {sseg\+\_\+Z}, \hyperpage{41}
+    \subitem {sseg\+\_\+z}, \hyperpage{41}
+  \item {bcd\+\_\+show\+\_\+char}
+    \subitem {bcd.\+c}, \hyperpage{19}
+    \subitem {bcd.\+h}, \hyperpage{26}
+  \item {bcd\+\_\+show\+\_\+string}
+    \subitem {bcd.\+c}, \hyperpage{19}
+    \subitem {bcd.\+h}, \hyperpage{26}
+  \item {btn\+\_\+fired}
+    \subitem {button.\+c}, \hyperpage{20}
+    \subitem {button.\+h}, \hyperpage{43}
+  \item {btn\+\_\+pressed}
+    \subitem {button.\+c}, \hyperpage{21}
+    \subitem {button.\+h}, \hyperpage{43}
+  \item {btn\+\_\+register\+\_\+fn}
+    \subitem {button.\+c}, \hyperpage{21}
+    \subitem {button.\+h}, \hyperpage{43}
+  \item {btn\+\_\+set\+\_\+mode}
+    \subitem {button.\+c}, \hyperpage{21}
+    \subitem {button.\+h}, \hyperpage{44}
+  \item {btn\+\_\+setup}
+    \subitem {button.\+c}, \hyperpage{21}
+    \subitem {button.\+h}, \hyperpage{44}
+  \item {Button}, \hyperpage{9}
+    \subitem {fn}, \hyperpage{10}
+    \subitem {mode}, \hyperpage{10}
+    \subitem {pin\+\_\+number}, \hyperpage{10}
+  \item {button.\+c}
+    \subitem {btn\+\_\+fired}, \hyperpage{20}
+    \subitem {btn\+\_\+pressed}, \hyperpage{21}
+    \subitem {btn\+\_\+register\+\_\+fn}, \hyperpage{21}
+    \subitem {btn\+\_\+set\+\_\+mode}, \hyperpage{21}
+    \subitem {btn\+\_\+setup}, \hyperpage{21}
+  \item {button.\+h}
+    \subitem {btn\+\_\+fired}, \hyperpage{43}
+    \subitem {btn\+\_\+pressed}, \hyperpage{43}
+    \subitem {btn\+\_\+register\+\_\+fn}, \hyperpage{43}
+    \subitem {btn\+\_\+set\+\_\+mode}, \hyperpage{44}
+    \subitem {btn\+\_\+setup}, \hyperpage{44}
+    \subitem {Button\+\_\+\+Mode}, \hyperpage{42}
+    \subitem {button\+\_\+mode}, \hyperpage{42}
+  \item {Button\+\_\+\+Mode}
+    \subitem {button.\+h}, \hyperpage{42}
+  \item {button\+\_\+mode}
+    \subitem {button.\+h}, \hyperpage{42}
+  \item {Bytes}
+    \subitem {pins.\+c}, \hyperpage{63}
+    \subitem {pins.\+h}, \hyperpage{53}
+  \item {bytes}, \hyperpage{11}
+    \subitem {C\+O\+M0}, \hyperpage{11}
+    \subitem {C\+O\+M1}, \hyperpage{11}
+    \subitem {C\+S0}, \hyperpage{11}
+    \subitem {C\+S1}, \hyperpage{11}
+    \subitem {C\+S2}, \hyperpage{11}
+    \subitem {W\+G\+M0}, \hyperpage{12}
+    \subitem {W\+G\+M1}, \hyperpage{12}
+    \subitem {W\+G\+M2}, \hyperpage{12}
+    \subitem {W\+G\+M3}, \hyperpage{12}
+
+  \indexspace
+
+  \item {c}
+    \subitem {B\+CD}, \hyperpage{8}
+  \item {C\+O\+M0}
+    \subitem {bytes}, \hyperpage{11}
+  \item {C\+O\+M1}
+    \subitem {bytes}, \hyperpage{11}
+  \item {C\+S0}
+    \subitem {bytes}, \hyperpage{11}
+  \item {C\+S1}
+    \subitem {bytes}, \hyperpage{11}
+  \item {C\+S2}
+    \subitem {bytes}, \hyperpage{11}
+  \item {clr\+\_\+bit}
+    \subitem {macros.\+h}, \hyperpage{49}
+  \item {clr\+\_\+pullup}
+    \subitem {pins.\+c}, \hyperpage{61}
+    \subitem {pins.\+h}, \hyperpage{51}
+  \item {comp\+\_\+masks}
+    \subitem {macros.\+h}, \hyperpage{49}
+
+  \indexspace
+
+  \item {d}
+    \subitem {B\+CD}, \hyperpage{8}
+  \item {delay}
+    \subitem {B\+CD}, \hyperpage{8}
+  \item {delay.\+c}
+    \subitem {delay\+\_\+1ms}, \hyperpage{22}
+    \subitem {delay\+\_\+1us}, \hyperpage{22}
+    \subitem {delay\+\_\+ms}, \hyperpage{23}
+    \subitem {delay\+\_\+us}, \hyperpage{23}
+  \item {delay.\+h}
+    \subitem {delay\+\_\+1ms}, \hyperpage{45}
+    \subitem {delay\+\_\+1us}, \hyperpage{45}
+    \subitem {delay\+\_\+ms}, \hyperpage{45}
+    \subitem {delay\+\_\+us}, \hyperpage{45}
+  \item {delay\+\_\+1ms}
+    \subitem {delay.\+c}, \hyperpage{22}
+    \subitem {delay.\+h}, \hyperpage{45}
+  \item {delay\+\_\+1us}
+    \subitem {delay.\+c}, \hyperpage{22}
+    \subitem {delay.\+h}, \hyperpage{45}
+  \item {delay\+\_\+ms}
+    \subitem {delay.\+c}, \hyperpage{23}
+    \subitem {delay.\+h}, \hyperpage{45}
+  \item {delay\+\_\+us}
+    \subitem {delay.\+c}, \hyperpage{23}
+    \subitem {delay.\+h}, \hyperpage{45}
+  \item {digital\+\_\+write}
+    \subitem {pins.\+c}, \hyperpage{61}
+    \subitem {pins.\+h}, \hyperpage{52}
+  \item {dp}
+    \subitem {B\+CD}, \hyperpage{8}
+
+  \indexspace
+
+  \item {e}
+    \subitem {B\+CD}, \hyperpage{9}
+
+  \indexspace
+
+  \item {f}
+    \subitem {B\+CD}, \hyperpage{9}
+  \item {F\+\_\+\+C\+PU}
+    \subitem {pins.\+h}, \hyperpage{51}
+    \subitem {uart.\+h}, \hyperpage{57}
+  \item {fn}
+    \subitem {Button}, \hyperpage{10}
+
+  \indexspace
+
+  \item {g}
+    \subitem {B\+CD}, \hyperpage{9}
+
+  \indexspace
+
+  \item {H\+I\+GH}
+    \subitem {pins.\+h}, \hyperpage{51}
+
+  \indexspace
+
+  \item {L\+OW}
+    \subitem {pins.\+h}, \hyperpage{51}
+  \item {Led}, \hyperpage{12}
+    \subitem {pin\+\_\+number}, \hyperpage{13}
+    \subitem {state}, \hyperpage{13}
+  \item {led.\+c}
+    \subitem {led\+\_\+blink}, \hyperpage{58}
+    \subitem {led\+\_\+free}, \hyperpage{59}
+    \subitem {led\+\_\+kill\+\_\+light}, \hyperpage{59}
+    \subitem {led\+\_\+make\+\_\+light}, \hyperpage{59}
+    \subitem {led\+\_\+setup}, \hyperpage{59}
+    \subitem {led\+\_\+switch\+\_\+light}, \hyperpage{60}
+  \item {led.\+h}
+    \subitem {Led\+\_\+\+State}, \hyperpage{46}
+    \subitem {led\+\_\+blink}, \hyperpage{47}
+    \subitem {led\+\_\+free}, \hyperpage{47}
+    \subitem {led\+\_\+kill\+\_\+light}, \hyperpage{48}
+    \subitem {led\+\_\+make\+\_\+light}, \hyperpage{48}
+    \subitem {led\+\_\+setup}, \hyperpage{48}
+    \subitem {led\+\_\+state}, \hyperpage{47}
+    \subitem {led\+\_\+switch\+\_\+light}, \hyperpage{48}
+  \item {Led\+\_\+\+State}
+    \subitem {led.\+h}, \hyperpage{46}
+  \item {led\+\_\+blink}
+    \subitem {led.\+c}, \hyperpage{58}
+    \subitem {led.\+h}, \hyperpage{47}
+  \item {led\+\_\+free}
+    \subitem {led.\+c}, \hyperpage{59}
+    \subitem {led.\+h}, \hyperpage{47}
+  \item {led\+\_\+kill\+\_\+light}
+    \subitem {led.\+c}, \hyperpage{59}
+    \subitem {led.\+h}, \hyperpage{48}
+  \item {led\+\_\+make\+\_\+light}
+    \subitem {led.\+c}, \hyperpage{59}
+    \subitem {led.\+h}, \hyperpage{48}
+  \item {led\+\_\+setup}
+    \subitem {led.\+c}, \hyperpage{59}
+    \subitem {led.\+h}, \hyperpage{48}
+  \item {led\+\_\+state}
+    \subitem {led.\+h}, \hyperpage{47}
+  \item {led\+\_\+switch\+\_\+light}
+    \subitem {led.\+c}, \hyperpage{60}
+    \subitem {led.\+h}, \hyperpage{48}
+  \item {lookup\+\_\+cs}
+    \subitem {pwm.\+c}, \hyperpage{64}
+    \subitem {pwm.\+h}, \hyperpage{54}
+  \item {lookup\+\_\+cs2}
+    \subitem {pwm.\+c}, \hyperpage{64}
+    \subitem {pwm.\+h}, \hyperpage{54}
+  \item {lookup\+\_\+ocr}
+    \subitem {pwm.\+c}, \hyperpage{64}
+    \subitem {pwm.\+h}, \hyperpage{55}
+  \item {lookup\+\_\+prescalar}
+    \subitem {pwm.\+c}, \hyperpage{65}
+    \subitem {pwm.\+h}, \hyperpage{55}
+  \item {loop}
+    \subitem {B\+CD}, \hyperpage{9}
+
+  \indexspace
+
+  \item {M\+A\+C\+R\+OS}
+    \subitem {macros.\+h}, \hyperpage{49}
+  \item {macros.\+h}
+    \subitem {clr\+\_\+bit}, \hyperpage{49}
+    \subitem {comp\+\_\+masks}, \hyperpage{49}
+    \subitem {M\+A\+C\+R\+OS}, \hyperpage{49}
+    \subitem {set\+\_\+bit}, \hyperpage{49}
+    \subitem {swt\+\_\+bit}, \hyperpage{50}
+    \subitem {tst\+\_\+bit}, \hyperpage{50}
+  \item {mode}
+    \subitem {Button}, \hyperpage{10}
+
+  \indexspace
+
+  \item {P}
+    \subitem {Pin}, \hyperpage{15}
+  \item {Pin}, \hyperpage{13}
+    \subitem {\+\_\+\+D\+DR}, \hyperpage{14}
+    \subitem {\+\_\+\+O\+C\+RA}, \hyperpage{14}
+    \subitem {\+\_\+\+O\+C\+RB}, \hyperpage{14}
+    \subitem {\+\_\+\+P\+IN}, \hyperpage{14}
+    \subitem {\+\_\+\+P\+O\+RT}, \hyperpage{14}
+    \subitem {\+\_\+\+T\+C\+CA}, \hyperpage{14}
+    \subitem {\+\_\+\+T\+C\+CB}, \hyperpage{15}
+    \subitem {P}, \hyperpage{15}
+  \item {pin\+\_\+number}
+    \subitem {Button}, \hyperpage{10}
+    \subitem {Led}, \hyperpage{13}
+  \item {Pins}
+    \subitem {pins.\+c}, \hyperpage{63}
+    \subitem {pins.\+h}, \hyperpage{53}
+  \item {pins.\+c}
+    \subitem {Bytes}, \hyperpage{63}
+    \subitem {clr\+\_\+pullup}, \hyperpage{61}
+    \subitem {digital\+\_\+write}, \hyperpage{61}
+    \subitem {Pins}, \hyperpage{63}
+    \subitem {set\+\_\+input}, \hyperpage{61}
+    \subitem {set\+\_\+output}, \hyperpage{62}
+    \subitem {set\+\_\+pullup}, \hyperpage{62}
+    \subitem {test\+\_\+input}, \hyperpage{62}
+    \subitem {toggle\+\_\+pullup}, \hyperpage{62}
+  \item {pins.\+h}
+    \subitem {Bytes}, \hyperpage{53}
+    \subitem {clr\+\_\+pullup}, \hyperpage{51}
+    \subitem {digital\+\_\+write}, \hyperpage{52}
+    \subitem {F\+\_\+\+C\+PU}, \hyperpage{51}
+    \subitem {H\+I\+GH}, \hyperpage{51}
+    \subitem {L\+OW}, \hyperpage{51}
+    \subitem {Pins}, \hyperpage{53}
+    \subitem {set\+\_\+input}, \hyperpage{52}
+    \subitem {set\+\_\+output}, \hyperpage{52}
+    \subitem {set\+\_\+pullup}, \hyperpage{52}
+    \subitem {test\+\_\+input}, \hyperpage{53}
+    \subitem {toggle\+\_\+pullup}, \hyperpage{53}
+  \item {pwm.\+c}
+    \subitem {lookup\+\_\+cs}, \hyperpage{64}
+    \subitem {lookup\+\_\+cs2}, \hyperpage{64}
+    \subitem {lookup\+\_\+ocr}, \hyperpage{64}
+    \subitem {lookup\+\_\+prescalar}, \hyperpage{65}
+    \subitem {pwmwave}, \hyperpage{65}
+    \subitem {sqrwave}, \hyperpage{65}
+  \item {pwm.\+h}
+    \subitem {lookup\+\_\+cs}, \hyperpage{54}
+    \subitem {lookup\+\_\+cs2}, \hyperpage{54}
+    \subitem {lookup\+\_\+ocr}, \hyperpage{55}
+    \subitem {lookup\+\_\+prescalar}, \hyperpage{55}
+    \subitem {pwmwave}, \hyperpage{55}
+    \subitem {sqrwave}, \hyperpage{56}
+  \item {pwmwave}
+    \subitem {pwm.\+c}, \hyperpage{65}
+    \subitem {pwm.\+h}, \hyperpage{55}
+
+  \indexspace
+
+  \item {rep\+\_\+a}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{29}
+  \item {rep\+\_\+b}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+c}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+d}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+dp}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+e}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+f}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{30}
+  \item {rep\+\_\+g}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{31}
+
+  \indexspace
+
+  \item {set\+\_\+bit}
+    \subitem {macros.\+h}, \hyperpage{49}
+  \item {set\+\_\+input}
+    \subitem {pins.\+c}, \hyperpage{61}
+    \subitem {pins.\+h}, \hyperpage{52}
+  \item {set\+\_\+output}
+    \subitem {pins.\+c}, \hyperpage{62}
+    \subitem {pins.\+h}, \hyperpage{52}
+  \item {set\+\_\+pullup}
+    \subitem {pins.\+c}, \hyperpage{62}
+    \subitem {pins.\+h}, \hyperpage{52}
+  \item {Seven\+Segment\+A\+S\+C\+II}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{31}
+  \item {sqrwave}
+    \subitem {pwm.\+c}, \hyperpage{65}
+    \subitem {pwm.\+h}, \hyperpage{56}
+  \item {src/\+R\+E\+A\+D\+M\+E.\+md}, \hyperpage{66}
+  \item {src/bcd.\+c}, \hyperpage{17}
+  \item {src/button.\+c}, \hyperpage{20}
+  \item {src/delay.\+c}, \hyperpage{22}
+  \item {src/include/bcd.\+h}, \hyperpage{23}
+  \item {src/include/bcd\+\_\+seven.\+h}, \hyperpage{26}
+  \item {src/include/button.\+h}, \hyperpage{42}
+  \item {src/include/delay.\+h}, \hyperpage{44}
+  \item {src/include/led.\+h}, \hyperpage{46}
+  \item {src/include/macros.\+h}, \hyperpage{49}
+  \item {src/include/pins.\+h}, \hyperpage{50}
+  \item {src/include/pwm.\+h}, \hyperpage{54}
+  \item {src/include/supersonic.\+h}, \hyperpage{56}
+  \item {src/include/uart.\+h}, \hyperpage{57}
+  \item {src/led.\+c}, \hyperpage{58}
+  \item {src/pins.\+c}, \hyperpage{60}
+  \item {src/pwm.\+c}, \hyperpage{64}
+  \item {src/supersonic.\+c}, \hyperpage{66}
+  \item {src/uart.\+c}, \hyperpage{67}
+  \item {sseg\+\_\+0}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{31}
+  \item {sseg\+\_\+1}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{31}
+  \item {sseg\+\_\+2}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{31}
+  \item {sseg\+\_\+3}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+4}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+5}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+6}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+7}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+8}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{32}
+  \item {sseg\+\_\+9}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+A}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+a}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+B}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+b}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+C}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{33}
+  \item {sseg\+\_\+c}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+D}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+d}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+E}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+e}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+F}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{34}
+  \item {sseg\+\_\+f}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+G}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+g}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+H}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+h}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+I}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{35}
+  \item {sseg\+\_\+i}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+J}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+j}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+K}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+k}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+L}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{36}
+  \item {sseg\+\_\+l}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+M}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+m}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+N}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+n}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+O}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{37}
+  \item {sseg\+\_\+o}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+P}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+p}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+Q}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+q}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+R}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{38}
+  \item {sseg\+\_\+r}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+S}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+s}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+T}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+t}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+U}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{39}
+  \item {sseg\+\_\+u}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+V}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+v}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+W}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+w}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+X}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{40}
+  \item {sseg\+\_\+x}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{41}
+  \item {sseg\+\_\+Y}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{41}
+  \item {sseg\+\_\+y}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{41}
+  \item {sseg\+\_\+Z}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{41}
+  \item {sseg\+\_\+z}
+    \subitem {bcd\+\_\+seven.\+h}, \hyperpage{41}
+  \item {state}
+    \subitem {Led}, \hyperpage{13}
+  \item {supersonic}
+    \subitem {supersonic.\+c}, \hyperpage{66}
+    \subitem {supersonic.\+h}, \hyperpage{56}
+  \item {supersonic.\+c}
+    \subitem {supersonic}, \hyperpage{66}
+  \item {supersonic.\+h}
+    \subitem {supersonic}, \hyperpage{56}
+  \item {swt\+\_\+bit}
+    \subitem {macros.\+h}, \hyperpage{50}
+
+  \indexspace
+
+  \item {test\+\_\+input}
+    \subitem {pins.\+c}, \hyperpage{62}
+    \subitem {pins.\+h}, \hyperpage{53}
+  \item {toggle\+\_\+pullup}
+    \subitem {pins.\+c}, \hyperpage{62}
+    \subitem {pins.\+h}, \hyperpage{53}
+  \item {tst\+\_\+bit}
+    \subitem {macros.\+h}, \hyperpage{50}
+
+  \indexspace
+
+  \item {uart.\+c}
+    \subitem {uart\+\_\+getchar}, \hyperpage{67}
+    \subitem {uart\+\_\+init}, \hyperpage{67}
+    \subitem {uart\+\_\+io}, \hyperpage{67}
+    \subitem {uart\+\_\+putchar}, \hyperpage{67}
+  \item {uart.\+h}
+    \subitem {B\+A\+UD}, \hyperpage{57}
+    \subitem {F\+\_\+\+C\+PU}, \hyperpage{57}
+    \subitem {uart\+\_\+getchar}, \hyperpage{57}
+    \subitem {uart\+\_\+init}, \hyperpage{58}
+    \subitem {uart\+\_\+putchar}, \hyperpage{58}
+  \item {uart\+\_\+getchar}
+    \subitem {uart.\+c}, \hyperpage{67}
+    \subitem {uart.\+h}, \hyperpage{57}
+  \item {uart\+\_\+init}
+    \subitem {uart.\+c}, \hyperpage{67}
+    \subitem {uart.\+h}, \hyperpage{58}
+  \item {uart\+\_\+io}
+    \subitem {uart.\+c}, \hyperpage{67}
+  \item {uart\+\_\+putchar}
+    \subitem {uart.\+c}, \hyperpage{67}
+    \subitem {uart.\+h}, \hyperpage{58}
+
+  \indexspace
+
+  \item {W\+G\+M0}
+    \subitem {bytes}, \hyperpage{12}
+  \item {W\+G\+M1}
+    \subitem {bytes}, \hyperpage{12}
+  \item {W\+G\+M2}
+    \subitem {bytes}, \hyperpage{12}
+  \item {W\+G\+M3}
+    \subitem {bytes}, \hyperpage{12}
+
+\end{theindex}
