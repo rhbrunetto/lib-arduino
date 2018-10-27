@@ -4,5 +4,5 @@ var annotated_dup =
     [ "Button", "structButton.html", "structButton" ],
     [ "bytes", "structbytes.html", "structbytes" ],
     [ "Led", "structLed.html", "structLed" ],
-    [ "pin", "structpin.html", "structpin" ]
+    [ "Pin", "structPin.html", "structPin" ]
 ];

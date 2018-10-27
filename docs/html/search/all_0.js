@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['_5fddr',['_DDR',['../structpin.html#a6bff1e5dc48e9042d2ea87c648f5ca5f',1,'pin']]],
-  ['_5focra',['_OCRA',['../structpin.html#a9660f80910cc06291d95364142f0ee7b',1,'pin']]],
-  ['_5focrb',['_OCRB',['../structpin.html#a1ca368f1e8e31ebd5087f687da43ef77',1,'pin']]],
-  ['_5fpin',['_PIN',['../structpin.html#a49fe3709ef56c543cc6ecd056276e408',1,'pin']]],
-  ['_5fport',['_PORT',['../structpin.html#a8533a7608dbc5287081146f6e013bc17',1,'pin']]],
-  ['_5ftcca',['_TCCA',['../structpin.html#a811907019bb7d30bd612531e12518160',1,'pin']]],
-  ['_5ftccb',['_TCCB',['../structpin.html#a8974dff112d8e4cd0b878ff1cb5ff58a',1,'pin']]]
+  ['_5fddr',['_DDR',['../structPin.html#a47b066cff2835c1b135cad6677dad889',1,'Pin']]],
+  ['_5focra',['_OCRA',['../structPin.html#a976f138d98dad2ae1ef47a9c4b1f66bb',1,'Pin']]],
+  ['_5focrb',['_OCRB',['../structPin.html#ad99c326bebfcc9f780b9590aaeb04f68',1,'Pin']]],
+  ['_5fpin',['_PIN',['../structPin.html#a22fa2dd8e8f6f82d434536ea9e517b91',1,'Pin']]],
+  ['_5fport',['_PORT',['../structPin.html#a7ad2ae81751a3dd6e0ef0241a226b5bf',1,'Pin']]],
+  ['_5ftcca',['_TCCA',['../structPin.html#a2fedb759a2179270a390e2020d001f85',1,'Pin']]],
+  ['_5ftccb',['_TCCB',['../structPin.html#a6e90b8ac6b2648d09ac6e7374bec1038',1,'Pin']]]
 ];

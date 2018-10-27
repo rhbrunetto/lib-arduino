@@ -1,20 +1,20 @@
-\hypertarget{button_8c}{}\section{button.\+c File Reference}
-\label{button_8c}\index{button.\+c@{button.\+c}}
+\hypertarget{button_8c}{}\section{src/button.c File Reference}
+\label{button_8c}\index{src/button.\+c@{src/button.\+c}}
 {\ttfamily \#include \char`\"{}button.\+h\char`\"{}}\newline
 {\ttfamily \#include $<$stdlib.\+h$>$}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{structButton}{Button}} $\ast$ \mbox{\hyperlink{button_8c_a2b25e08118cddf90348a0ddfb019cfcf}{btn\+\_\+setup}} (uint8\+\_\+t pin\+\_\+number)
-\item 
+\begin{DoxyCompactList}\small\item\em Setups a new instance of a \mbox{\hyperlink{structButton}{Button}}. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{button_8c_add8e92ca734550463d36e2aedcd55062}{btn\+\_\+register\+\_\+fn}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b, void $\ast$function)
-\item 
+\begin{DoxyCompactList}\small\item\em Registers a function to be called whether button is fired. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{button_8c_a94272cf219c43049220e9964c4042a92}{btn\+\_\+set\+\_\+mode}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b, \mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}} mode)
-\item 
+\begin{DoxyCompactList}\small\item\em Changes button behavior, waiting or not to be released to fire action. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{button_8c_aa7618afbabcf8b8ba3f7a69dec504197}{btn\+\_\+fired}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b)
-\item 
+\begin{DoxyCompactList}\small\item\em Verifies if a button is pressed at moment and fires it\textquotesingle{}s action. \end{DoxyCompactList}\item 
 uint8\+\_\+t \mbox{\hyperlink{button_8c_af0ce243e3702bc0423cd5d39afa75251}{btn\+\_\+pressed}} (\mbox{\hyperlink{structButton}{Button}} $\ast$b)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Verifies if a button is pressed at moment. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
@@ -24,27 +24,82 @@ uint8\+\_\+t \mbox{\hyperlink{button_8c_af0ce243e3702bc0423cd5d39afa75251}{btn\+
 \subsubsection{\texorpdfstring{btn\+\_\+fired()}{btn\_fired()}}
 {\footnotesize\ttfamily void btn\+\_\+fired (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b }\end{DoxyParamCaption})}
 
+
+
+Verifies if a button is pressed at moment and fires it\textquotesingle{}s action. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \mbox{\hyperlink{structButton}{Button}} instance. \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{button_8c_af0ce243e3702bc0423cd5d39afa75251}\label{button_8c_af0ce243e3702bc0423cd5d39afa75251}} 
 \index{button.\+c@{button.\+c}!btn\+\_\+pressed@{btn\+\_\+pressed}}
 \index{btn\+\_\+pressed@{btn\+\_\+pressed}!button.\+c@{button.\+c}}
 \subsubsection{\texorpdfstring{btn\+\_\+pressed()}{btn\_pressed()}}
 {\footnotesize\ttfamily uint8\+\_\+t btn\+\_\+pressed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b }\end{DoxyParamCaption})}
 
+
+
+Verifies if a button is pressed at moment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \mbox{\hyperlink{structButton}{Button}} instance.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 if button is not pressed, any value otherwise. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{button_8c_add8e92ca734550463d36e2aedcd55062}\label{button_8c_add8e92ca734550463d36e2aedcd55062}} 
 \index{button.\+c@{button.\+c}!btn\+\_\+register\+\_\+fn@{btn\+\_\+register\+\_\+fn}}
 \index{btn\+\_\+register\+\_\+fn@{btn\+\_\+register\+\_\+fn}!button.\+c@{button.\+c}}
 \subsubsection{\texorpdfstring{btn\+\_\+register\+\_\+fn()}{btn\_register\_fn()}}
 {\footnotesize\ttfamily void btn\+\_\+register\+\_\+fn (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b,  }\item[{void $\ast$}]{function }\end{DoxyParamCaption})}
 
+
+
+Registers a function to be called whether button is fired. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \mbox{\hyperlink{structButton}{Button}} instance. \\
+\hline
+{\em function} & Function pointer. \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{button_8c_a94272cf219c43049220e9964c4042a92}\label{button_8c_a94272cf219c43049220e9964c4042a92}} 
 \index{button.\+c@{button.\+c}!btn\+\_\+set\+\_\+mode@{btn\+\_\+set\+\_\+mode}}
 \index{btn\+\_\+set\+\_\+mode@{btn\+\_\+set\+\_\+mode}!button.\+c@{button.\+c}}
 \subsubsection{\texorpdfstring{btn\+\_\+set\+\_\+mode()}{btn\_set\_mode()}}
 {\footnotesize\ttfamily void btn\+\_\+set\+\_\+mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structButton}{Button}} $\ast$}]{b,  }\item[{\mbox{\hyperlink{button_8h_a9a185102e3c0ad41aac006e0e2fcb190}{Button\+\_\+\+Mode}}}]{mode }\end{DoxyParamCaption})}
 
+
+
+Changes button behavior, waiting or not to be released to fire action. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \mbox{\hyperlink{structButton}{Button}} instance. \\
+\hline
+{\em mode} & New button mode. \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{button_8c_a2b25e08118cddf90348a0ddfb019cfcf}\label{button_8c_a2b25e08118cddf90348a0ddfb019cfcf}} 
 \index{button.\+c@{button.\+c}!btn\+\_\+setup@{btn\+\_\+setup}}
 \index{btn\+\_\+setup@{btn\+\_\+setup}!button.\+c@{button.\+c}}
 \subsubsection{\texorpdfstring{btn\+\_\+setup()}{btn\_setup()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{structButton}{Button}}$\ast$ btn\+\_\+setup (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{pin\+\_\+number }\end{DoxyParamCaption})}
 
+
+
+Setups a new instance of a \mbox{\hyperlink{structButton}{Button}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & Digital pin number associated to the \mbox{\hyperlink{structButton}{Button}}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to \mbox{\hyperlink{structButton}{Button}} structure. 
+\end{DoxyReturn}

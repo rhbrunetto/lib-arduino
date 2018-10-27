@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>lib-arduino: include/button.h File Reference</title>
+<title>lib-arduino: src/include/button.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,6 +107,7 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a9a185102e3c0ad41aac006e0e2fcb190"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4">button_mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190">Button_Mode</a></td></tr>
+<tr class="memdesc:a9a185102e3c0ad41aac006e0e2fcb190"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structButton.html">Button</a> mode options.  <a href="#a9a185102e3c0ad41aac006e0e2fcb190">More...</a><br /></td></tr>
 <tr class="separator:a9a185102e3c0ad41aac006e0e2fcb190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -119,14 +120,19 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2b25e08118cddf90348a0ddfb019cfcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structButton.html">Button</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#a2b25e08118cddf90348a0ddfb019cfcf">btn_setup</a> (uint8_t pin_number)</td></tr>
+<tr class="memdesc:a2b25e08118cddf90348a0ddfb019cfcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups a new instance of a <a class="el" href="structButton.html">Button</a>.  <a href="#a2b25e08118cddf90348a0ddfb019cfcf">More...</a><br /></td></tr>
 <tr class="separator:a2b25e08118cddf90348a0ddfb019cfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8e92ca734550463d36e2aedcd55062"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#add8e92ca734550463d36e2aedcd55062">btn_register_fn</a> (<a class="el" href="structButton.html">Button</a> *b, void *function)</td></tr>
+<tr class="memdesc:add8e92ca734550463d36e2aedcd55062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a function to be called whether button is fired.  <a href="#add8e92ca734550463d36e2aedcd55062">More...</a><br /></td></tr>
 <tr class="separator:add8e92ca734550463d36e2aedcd55062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94272cf219c43049220e9964c4042a92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#a94272cf219c43049220e9964c4042a92">btn_set_mode</a> (<a class="el" href="structButton.html">Button</a> *b, <a class="el" href="button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190">Button_Mode</a> mode)</td></tr>
+<tr class="memdesc:a94272cf219c43049220e9964c4042a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes button behavior, waiting or not to be released to fire action.  <a href="#a94272cf219c43049220e9964c4042a92">More...</a><br /></td></tr>
 <tr class="separator:a94272cf219c43049220e9964c4042a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7618afbabcf8b8ba3f7a69dec504197"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#aa7618afbabcf8b8ba3f7a69dec504197">btn_fired</a> (<a class="el" href="structButton.html">Button</a> *b)</td></tr>
+<tr class="memdesc:aa7618afbabcf8b8ba3f7a69dec504197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies if a button is pressed at moment and fires it's action.  <a href="#aa7618afbabcf8b8ba3f7a69dec504197">More...</a><br /></td></tr>
 <tr class="separator:aa7618afbabcf8b8ba3f7a69dec504197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ce243e3702bc0423cd5d39afa75251"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="button_8h.html#af0ce243e3702bc0423cd5d39afa75251">btn_pressed</a> (<a class="el" href="structButton.html">Button</a> *b)</td></tr>
+<tr class="memdesc:af0ce243e3702bc0423cd5d39afa75251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies if a button is pressed at moment.  <a href="#af0ce243e3702bc0423cd5d39afa75251">More...</a><br /></td></tr>
 <tr class="separator:af0ce243e3702bc0423cd5d39afa75251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -141,6 +147,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="structButton.html">Button</a> mode options. </p>
 
 </div>
 </div>
@@ -157,8 +165,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a623a52dd1d9943610d07b12f7f3b37b4a7b45723d296c6c8b259548907ee93a3f"></a>Btn_Up&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358"></a>Btn_Down&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a623a52dd1d9943610d07b12f7f3b37b4a7b45723d296c6c8b259548907ee93a3f"></a>Btn_Up&#160;</td><td class="fielddoc"><p class="">Fires action immediately after button get pressed. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358"></a>Btn_Down&#160;</td><td class="fielddoc"><p class="">Fires action when button is released. </p>
+</td></tr>
 </table>
 
 </div>
@@ -180,6 +190,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Verifies if a button is pressed at moment and fires it's action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><a class="el" href="structButton.html">Button</a> instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="af0ce243e3702bc0423cd5d39afa75251"></a>
@@ -197,6 +215,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Verifies if a button is pressed at moment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><a class="el" href="structButton.html">Button</a> instance.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns 0 if button is not pressed, any value otherwise. </dd></dl>
 
 </div>
 </div>
@@ -226,6 +253,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Registers a function to be called whether button is fired. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><a class="el" href="structButton.html">Button</a> instance. </td></tr>
+    <tr><td class="paramname">function</td><td>Function pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a94272cf219c43049220e9964c4042a92"></a>
@@ -254,6 +290,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Changes button behavior, waiting or not to be released to fire action. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td><a class="el" href="structButton.html">Button</a> instance. </td></tr>
+    <tr><td class="paramname">mode</td><td>New button mode. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a2b25e08118cddf90348a0ddfb019cfcf"></a>
@@ -272,6 +317,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Setups a new instance of a <a class="el" href="structButton.html">Button</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number</td><td>Digital pin number associated to the <a class="el" href="structButton.html">Button</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to <a class="el" href="structButton.html">Button</a> structure. </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -279,7 +333,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="button_8h.html">button.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b0856f6b0d80ccb263b2f415c91f9e17.html">include</a></li><li class="navelem"><a class="el" href="button_8h.html">button.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>

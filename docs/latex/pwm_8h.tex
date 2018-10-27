@@ -1,20 +1,20 @@
-\hypertarget{pwm_8h}{}\section{pwm.\+h File Reference}
-\label{pwm_8h}\index{pwm.\+h@{pwm.\+h}}
+\hypertarget{pwm_8h}{}\section{src/include/pwm.h File Reference}
+\label{pwm_8h}\index{src/include/pwm.\+h@{src/include/pwm.\+h}}
 {\ttfamily \#include $<$avr/io.\+h$>$}\newline
 {\ttfamily \#include $<$stdlib.\+h$>$}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 float \mbox{\hyperlink{pwm_8h_a4b931bdc5a3d9ece22294e3b6c2aaa37}{lookup\+\_\+prescalar}} (float)
-\item 
+\begin{DoxyCompactList}\small\item\em Specifies the prescalar based on frequency. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{pwm_8h_adc953c179073cc20db8cc9b99041fb78}{lookup\+\_\+ocr}} (float)
-\item 
+\begin{DoxyCompactList}\small\item\em Specifies O\+CR value based on frequency. \end{DoxyCompactList}\item 
 uint8\+\_\+t \mbox{\hyperlink{pwm_8h_a9d613b14ea9bbc134c57ad5939037c3f}{lookup\+\_\+cs}} (float)
-\item 
+\begin{DoxyCompactList}\small\item\em Specifies the CS control bits value based on frequency. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{pwm_8h_a0a58d3d065f5cc541df3aee91f490a88}{sqrwave}} (uint8\+\_\+t, float)
-\item 
+\begin{DoxyCompactList}\small\item\em Generates square waves pulse in a pin based on frequency. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{pwm_8h_a8e8d5164a8fd8260c36d154f9865a5d5}{pwmwave}} (uint8\+\_\+t, uint8\+\_\+t)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Generates P\+WM waves in a pin based on a duty cycle. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
@@ -24,27 +24,86 @@ void \mbox{\hyperlink{pwm_8h_a8e8d5164a8fd8260c36d154f9865a5d5}{pwmwave}} (uint8
 \subsubsection{\texorpdfstring{lookup\+\_\+cs()}{lookup\_cs()}}
 {\footnotesize\ttfamily uint8\+\_\+t lookup\+\_\+cs (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Specifies the CS control bits value based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+CS control bits value 
+\end{DoxyReturn}
 \mbox{\Hypertarget{pwm_8h_adc953c179073cc20db8cc9b99041fb78}\label{pwm_8h_adc953c179073cc20db8cc9b99041fb78}} 
 \index{pwm.\+h@{pwm.\+h}!lookup\+\_\+ocr@{lookup\+\_\+ocr}}
 \index{lookup\+\_\+ocr@{lookup\+\_\+ocr}!pwm.\+h@{pwm.\+h}}
 \subsubsection{\texorpdfstring{lookup\+\_\+ocr()}{lookup\_ocr()}}
 {\footnotesize\ttfamily int lookup\+\_\+ocr (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Specifies O\+CR value based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O\+CR value 
+\end{DoxyReturn}
 \mbox{\Hypertarget{pwm_8h_a4b931bdc5a3d9ece22294e3b6c2aaa37}\label{pwm_8h_a4b931bdc5a3d9ece22294e3b6c2aaa37}} 
 \index{pwm.\+h@{pwm.\+h}!lookup\+\_\+prescalar@{lookup\+\_\+prescalar}}
 \index{lookup\+\_\+prescalar@{lookup\+\_\+prescalar}!pwm.\+h@{pwm.\+h}}
 \subsubsection{\texorpdfstring{lookup\+\_\+prescalar()}{lookup\_prescalar()}}
 {\footnotesize\ttfamily float lookup\+\_\+prescalar (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Specifies the prescalar based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Prescalar value 
+\end{DoxyReturn}
 \mbox{\Hypertarget{pwm_8h_a8e8d5164a8fd8260c36d154f9865a5d5}\label{pwm_8h_a8e8d5164a8fd8260c36d154f9865a5d5}} 
 \index{pwm.\+h@{pwm.\+h}!pwmwave@{pwmwave}}
 \index{pwmwave@{pwmwave}!pwm.\+h@{pwm.\+h}}
 \subsubsection{\texorpdfstring{pwmwave()}{pwmwave()}}
 {\footnotesize\ttfamily void pwmwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{,  }\item[{uint8\+\_\+t}]{ }\end{DoxyParamCaption})}
 
+
+
+Generates P\+WM waves in a pin based on a duty cycle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & \mbox{\hyperlink{structPin}{Pin}} number \\
+\hline
+{\em dutycycle} & Duty cycle value (0 $\sim$ 255) \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{pwm_8h_a0a58d3d065f5cc541df3aee91f490a88}\label{pwm_8h_a0a58d3d065f5cc541df3aee91f490a88}} 
 \index{pwm.\+h@{pwm.\+h}!sqrwave@{sqrwave}}
 \index{sqrwave@{sqrwave}!pwm.\+h@{pwm.\+h}}
 \subsubsection{\texorpdfstring{sqrwave()}{sqrwave()}}
 {\footnotesize\ttfamily void sqrwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{,  }\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Generates square waves pulse in a pin based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & \mbox{\hyperlink{structPin}{Pin}} number \\
+\hline
+{\em freq} & Frequency value (Hz) ~\newline
+ \\
+\hline
+\end{DoxyParams}

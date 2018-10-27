@@ -1,20 +1,20 @@
-\hypertarget{pwm_8c}{}\section{pwm.\+c File Reference}
-\label{pwm_8c}\index{pwm.\+c@{pwm.\+c}}
+\hypertarget{pwm_8c}{}\section{src/pwm.c File Reference}
+\label{pwm_8c}\index{src/pwm.\+c@{src/pwm.\+c}}
 {\ttfamily \#include \char`\"{}pwm.\+h\char`\"{}}\newline
 {\ttfamily \#include \char`\"{}pins.\+h\char`\"{}}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 float \mbox{\hyperlink{pwm_8c_aaa129110092a3861d5d8d5430a23cb54}{lookup\+\_\+prescalar}} (float freq)
-\item 
+\begin{DoxyCompactList}\small\item\em Specifies the prescalar based on frequency. \end{DoxyCompactList}\item 
 uint8\+\_\+t \mbox{\hyperlink{pwm_8c_a19b683068b5a4c77783f30980b9b9d49}{lookup\+\_\+cs}} (float freq)
-\item 
+\begin{DoxyCompactList}\small\item\em Specifies the CS control bits value based on frequency. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{pwm_8c_add61e561f21bf139749f8bd7e79567ac}{lookup\+\_\+ocr}} (float freq)
-\item 
-void \mbox{\hyperlink{pwm_8c_ae04783fb764ba6e965d7e8cd2b1c0720}{sqrwave}} (uint8\+\_\+t \mbox{\hyperlink{structpin}{pin}}, float freq)
-\item 
-void \mbox{\hyperlink{pwm_8c_a42eab57a4f4b7235af46aed46bec75b4}{pwmwave}} (uint8\+\_\+t \mbox{\hyperlink{structpin}{pin}}, uint8\+\_\+t dutycicle)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Specifies O\+CR value based on frequency. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pwm_8c_ae04783fb764ba6e965d7e8cd2b1c0720}{sqrwave}} (uint8\+\_\+t pin, float freq)
+\begin{DoxyCompactList}\small\item\em Generates square waves pulse in a pin based on frequency. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{pwm_8c_a89793eefc374fc55e44dc90262e371de}{pwmwave}} (uint8\+\_\+t pin, uint8\+\_\+t dutycycle)
+\begin{DoxyCompactList}\small\item\em Generates P\+WM waves in a pin based on a duty cycle. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Function Documentation}
@@ -22,29 +22,88 @@ void \mbox{\hyperlink{pwm_8c_a42eab57a4f4b7235af46aed46bec75b4}{pwmwave}} (uint8
 \index{pwm.\+c@{pwm.\+c}!lookup\+\_\+cs@{lookup\+\_\+cs}}
 \index{lookup\+\_\+cs@{lookup\+\_\+cs}!pwm.\+c@{pwm.\+c}}
 \subsubsection{\texorpdfstring{lookup\+\_\+cs()}{lookup\_cs()}}
-{\footnotesize\ttfamily uint8\+\_\+t lookup\+\_\+cs (\begin{DoxyParamCaption}\item[{float}]{freq }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily uint8\+\_\+t lookup\+\_\+cs (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Specifies the CS control bits value based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+CS control bits value 
+\end{DoxyReturn}
 \mbox{\Hypertarget{pwm_8c_add61e561f21bf139749f8bd7e79567ac}\label{pwm_8c_add61e561f21bf139749f8bd7e79567ac}} 
 \index{pwm.\+c@{pwm.\+c}!lookup\+\_\+ocr@{lookup\+\_\+ocr}}
 \index{lookup\+\_\+ocr@{lookup\+\_\+ocr}!pwm.\+c@{pwm.\+c}}
 \subsubsection{\texorpdfstring{lookup\+\_\+ocr()}{lookup\_ocr()}}
-{\footnotesize\ttfamily int lookup\+\_\+ocr (\begin{DoxyParamCaption}\item[{float}]{freq }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily int lookup\+\_\+ocr (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Specifies O\+CR value based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O\+CR value 
+\end{DoxyReturn}
 \mbox{\Hypertarget{pwm_8c_aaa129110092a3861d5d8d5430a23cb54}\label{pwm_8c_aaa129110092a3861d5d8d5430a23cb54}} 
 \index{pwm.\+c@{pwm.\+c}!lookup\+\_\+prescalar@{lookup\+\_\+prescalar}}
 \index{lookup\+\_\+prescalar@{lookup\+\_\+prescalar}!pwm.\+c@{pwm.\+c}}
 \subsubsection{\texorpdfstring{lookup\+\_\+prescalar()}{lookup\_prescalar()}}
-{\footnotesize\ttfamily float lookup\+\_\+prescalar (\begin{DoxyParamCaption}\item[{float}]{freq }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily float lookup\+\_\+prescalar (\begin{DoxyParamCaption}\item[{float}]{ }\end{DoxyParamCaption})}
 
-\mbox{\Hypertarget{pwm_8c_a42eab57a4f4b7235af46aed46bec75b4}\label{pwm_8c_a42eab57a4f4b7235af46aed46bec75b4}} 
+
+
+Specifies the prescalar based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em freq} & Frequency value (Hz)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Prescalar value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{pwm_8c_a89793eefc374fc55e44dc90262e371de}\label{pwm_8c_a89793eefc374fc55e44dc90262e371de}} 
 \index{pwm.\+c@{pwm.\+c}!pwmwave@{pwmwave}}
 \index{pwmwave@{pwmwave}!pwm.\+c@{pwm.\+c}}
 \subsubsection{\texorpdfstring{pwmwave()}{pwmwave()}}
-{\footnotesize\ttfamily void pwmwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{pin,  }\item[{uint8\+\_\+t}]{dutycicle }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void pwmwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{,  }\item[{uint8\+\_\+t}]{ }\end{DoxyParamCaption})}
 
+
+
+Generates P\+WM waves in a pin based on a duty cycle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & \mbox{\hyperlink{structPin}{Pin}} number \\
+\hline
+{\em dutycycle} & Duty cycle value (0 $\sim$ 255) \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{pwm_8c_ae04783fb764ba6e965d7e8cd2b1c0720}\label{pwm_8c_ae04783fb764ba6e965d7e8cd2b1c0720}} 
 \index{pwm.\+c@{pwm.\+c}!sqrwave@{sqrwave}}
 \index{sqrwave@{sqrwave}!pwm.\+c@{pwm.\+c}}
 \subsubsection{\texorpdfstring{sqrwave()}{sqrwave()}}
-{\footnotesize\ttfamily void sqrwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{pin,  }\item[{float}]{freq }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void sqrwave (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{,  }\item[{float}]{ }\end{DoxyParamCaption})}
 
+
+
+Generates square waves pulse in a pin based on frequency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & \mbox{\hyperlink{structPin}{Pin}} number \\
+\hline
+{\em freq} & Frequency value (Hz) ~\newline
+ \\
+\hline
+\end{DoxyParams}
