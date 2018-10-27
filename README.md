@@ -23,7 +23,7 @@ gcc-avr
 
 ## Utilização 
 
-Crie um arquivo fonte ~~main.c~~ no diretorio ~~src/exec~~, em seguida:
+Crie um arquivo fonte *main.c* no diretorio *src/exec*, em seguida:
 ```
 make
 ```
@@ -36,11 +36,12 @@ Para utilizar a biblioteca basta incluir as arquivos header. Ex:
 
 ## Documentação
 
-A documentação está disponível em ~~doc/~~.
+A documentação está disponível em *doc/*.
 
 ## Autores
 
 Ricardo Henrique Brunetto ra94182
+
 Thiago Kira ra78750
 
 
