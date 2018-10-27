@@ -1,6 +1,7 @@
 var delay_8h =
 [
-    [ "delay_ms", "delay_8h.html#ac3b80ff0cbc72be789a378f39f933e8c", null ],
-    [ "delay_s", "delay_8h.html#aff571e1144f167d329fe406ef88f9ea0", null ],
-    [ "delay_us", "delay_8h.html#ae18e8bc72a992e684954197f2bca3d57", null ]
+    [ "delay_1ms", "delay_8h.html#a734e022c8fda86b69a353b1012c59231", null ],
+    [ "delay_1us", "delay_8h.html#a25aa1f4708eea578079cc9f51ec42e40", null ],
+    [ "delay_ms", "delay_8h.html#a4dd9649f0763db8e9d9403d5b1f37878", null ],
+    [ "delay_us", "delay_8h.html#a48866d5f578bf73d34338922c302008d", null ]
 ];

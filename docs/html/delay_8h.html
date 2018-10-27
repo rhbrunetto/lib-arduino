@@ -92,21 +92,69 @@ $(document).ready(function(){initNavTree('delay_8h.html','');});
 <div class="title">delay.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;avr/io.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+</div>
 <p><a href="delay_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae18e8bc72a992e684954197f2bca3d57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#ae18e8bc72a992e684954197f2bca3d57">delay_us</a> (double time)</td></tr>
-<tr class="separator:ae18e8bc72a992e684954197f2bca3d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b80ff0cbc72be789a378f39f933e8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#ac3b80ff0cbc72be789a378f39f933e8c">delay_ms</a> (double time)</td></tr>
-<tr class="separator:ac3b80ff0cbc72be789a378f39f933e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff571e1144f167d329fe406ef88f9ea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#aff571e1144f167d329fe406ef88f9ea0">delay_s</a> (double time)</td></tr>
-<tr class="separator:aff571e1144f167d329fe406ef88f9ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25aa1f4708eea578079cc9f51ec42e40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#a25aa1f4708eea578079cc9f51ec42e40">delay_1us</a> (void)</td></tr>
+<tr class="memdesc:a25aa1f4708eea578079cc9f51ec42e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays for, approximately, 1 microssecond.  <a href="#a25aa1f4708eea578079cc9f51ec42e40">More...</a><br /></td></tr>
+<tr class="separator:a25aa1f4708eea578079cc9f51ec42e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a734e022c8fda86b69a353b1012c59231"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#a734e022c8fda86b69a353b1012c59231">delay_1ms</a> (void)</td></tr>
+<tr class="memdesc:a734e022c8fda86b69a353b1012c59231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays for, approximately, 1 millissecond.  <a href="#a734e022c8fda86b69a353b1012c59231">More...</a><br /></td></tr>
+<tr class="separator:a734e022c8fda86b69a353b1012c59231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48866d5f578bf73d34338922c302008d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#a48866d5f578bf73d34338922c302008d">delay_us</a> (uint32_t)</td></tr>
+<tr class="memdesc:a48866d5f578bf73d34338922c302008d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays for, approximately, a specified time, in microsseconds.  <a href="#a48866d5f578bf73d34338922c302008d">More...</a><br /></td></tr>
+<tr class="separator:a48866d5f578bf73d34338922c302008d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd9649f0763db8e9d9403d5b1f37878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="delay_8h.html#a4dd9649f0763db8e9d9403d5b1f37878">delay_ms</a> (uint32_t)</td></tr>
+<tr class="memdesc:a4dd9649f0763db8e9d9403d5b1f37878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays for, approximately, a specified time, in milliseconds.  <a href="#a4dd9649f0763db8e9d9403d5b1f37878">More...</a><br /></td></tr>
+<tr class="separator:a4dd9649f0763db8e9d9403d5b1f37878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac3b80ff0cbc72be789a378f39f933e8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3b80ff0cbc72be789a378f39f933e8c">&#9670;&nbsp;</a></span>delay_ms()</h2>
+<a id="a734e022c8fda86b69a353b1012c59231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a734e022c8fda86b69a353b1012c59231">&#9670;&nbsp;</a></span>delay_1ms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delay_1ms </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delays for, approximately, 1 millissecond. </p>
+
+</div>
+</div>
+<a id="a25aa1f4708eea578079cc9f51ec42e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25aa1f4708eea578079cc9f51ec42e40">&#9670;&nbsp;</a></span>delay_1us()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delay_1us </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delays for, approximately, 1 microssecond. </p>
+
+</div>
+</div>
+<a id="a4dd9649f0763db8e9d9403d5b1f37878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd9649f0763db8e9d9403d5b1f37878">&#9670;&nbsp;</a></span>delay_ms()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -114,35 +162,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void delay_ms </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>time</em></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aff571e1144f167d329fe406ef88f9ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff571e1144f167d329fe406ef88f9ea0">&#9670;&nbsp;</a></span>delay_s()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void delay_s </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>time</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Delays for, approximately, a specified time, in milliseconds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Time for delay (in milliseconds) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="ae18e8bc72a992e684954197f2bca3d57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae18e8bc72a992e684954197f2bca3d57">&#9670;&nbsp;</a></span>delay_us()</h2>
+<a id="a48866d5f578bf73d34338922c302008d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48866d5f578bf73d34338922c302008d">&#9670;&nbsp;</a></span>delay_us()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,12 +188,20 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void delay_us </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>time</em></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delays for, approximately, a specified time, in microsseconds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Time for delay (in microsseconds) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

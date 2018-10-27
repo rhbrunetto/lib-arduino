@@ -4,5 +4,6 @@ var dir_261a8853df27ecda5da9ea6f737a329b =
     [ "btn1.c", "btn1_8c.html", "btn1_8c" ],
     [ "btn2.c", "btn2_8c.html", "btn2_8c" ],
     [ "led.c", "testes_2led_8c.html", "testes_2led_8c" ],
+    [ "sonar.c", "sonar_8c.html", "sonar_8c" ],
     [ "sqrwave.c", "sqrwave_8c.html", "sqrwave_8c" ]
 ];

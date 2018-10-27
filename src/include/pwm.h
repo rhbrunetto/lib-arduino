@@ -42,4 +42,6 @@ void sqrwave(uint8_t , float);
   */
 void pwmwave(uint8_t, uint8_t);
 
+uint8_t lookup_cs2(float freq);
+
 #endif

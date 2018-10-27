@@ -21,8 +21,8 @@ var searchData=
   ['sseg_5fh',['sseg_h',['../bcd__seven_8h.html#a59d6ff99f1ae5061b3a4a2c176df0407',1,'sseg_h():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a39bc8f9a0da2f03f62200242dcd4e481',1,'sseg_H():&#160;bcd_seven.h']]],
   ['sseg_5fi',['sseg_I',['../bcd__seven_8h.html#a23035bdf1e5e12a4c850dfc089673023',1,'sseg_I():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a48cbe541080e68947d5cde46a9cf3993',1,'sseg_i():&#160;bcd_seven.h']]],
   ['sseg_5fj',['sseg_j',['../bcd__seven_8h.html#ac2f5d4008c7073ba55fd23f03872c821',1,'sseg_j():&#160;bcd_seven.h'],['../bcd__seven_8h.html#abb21c176abd81c4a68814c4b2320bab3',1,'sseg_J():&#160;bcd_seven.h']]],
-  ['sseg_5fk',['sseg_k',['../bcd__seven_8h.html#ac339780ae62881accaf7b519c5d92c7f',1,'sseg_k():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a72f964add14874fbe84de8809b276c48',1,'sseg_K():&#160;bcd_seven.h']]],
-  ['sseg_5fl',['sseg_L',['../bcd__seven_8h.html#a10ab8f6e97970e719b5a2eaa4ba5259c',1,'sseg_L():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a765f82bfaed63339eb5168b57fe75f71',1,'sseg_l():&#160;bcd_seven.h']]],
+  ['sseg_5fk',['sseg_K',['../bcd__seven_8h.html#a72f964add14874fbe84de8809b276c48',1,'sseg_K():&#160;bcd_seven.h'],['../bcd__seven_8h.html#ac339780ae62881accaf7b519c5d92c7f',1,'sseg_k():&#160;bcd_seven.h']]],
+  ['sseg_5fl',['sseg_l',['../bcd__seven_8h.html#a765f82bfaed63339eb5168b57fe75f71',1,'sseg_l():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a10ab8f6e97970e719b5a2eaa4ba5259c',1,'sseg_L():&#160;bcd_seven.h']]],
   ['sseg_5fm',['sseg_M',['../bcd__seven_8h.html#a483877112eff4c8b6bd11fd57f69f995',1,'sseg_M():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a637a877918d940f9a16ca64362934a05',1,'sseg_m():&#160;bcd_seven.h']]],
   ['sseg_5fn',['sseg_n',['../bcd__seven_8h.html#af8a19e886fae6ca38495ac7c9aae7359',1,'sseg_n():&#160;bcd_seven.h'],['../bcd__seven_8h.html#ab0166da965001c6cc9dd010d55c04d16',1,'sseg_N():&#160;bcd_seven.h']]],
   ['sseg_5fo',['sseg_o',['../bcd__seven_8h.html#a30cea78d77031830498b4e356ee150e2',1,'sseg_o():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a8963076e850e2f91a0623ad4e2f65acd',1,'sseg_O():&#160;bcd_seven.h']]],
@@ -34,8 +34,8 @@ var searchData=
   ['sseg_5fu',['sseg_U',['../bcd__seven_8h.html#a9ce97a419eebf25db176f6e8107840fa',1,'sseg_U():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a0b2856d1309ae1e43ae50f133e1fbe8b',1,'sseg_u():&#160;bcd_seven.h']]],
   ['sseg_5fv',['sseg_V',['../bcd__seven_8h.html#a2d71406553c237bc01fb38451346ff89',1,'sseg_V():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a8318b34423808dd62edd279ac88ae9ee',1,'sseg_v():&#160;bcd_seven.h']]],
   ['sseg_5fw',['sseg_W',['../bcd__seven_8h.html#aba3eae9f2c21b1dc6a66f897bb154581',1,'sseg_W():&#160;bcd_seven.h'],['../bcd__seven_8h.html#af2e684385fedaf3d48c18f8083f2281c',1,'sseg_w():&#160;bcd_seven.h']]],
-  ['sseg_5fx',['sseg_x',['../bcd__seven_8h.html#ae554a54b8bfe96392c22ae729b864fe0',1,'sseg_x():&#160;bcd_seven.h'],['../bcd__seven_8h.html#aada2a5b1de293504171d87056a7e397d',1,'sseg_X():&#160;bcd_seven.h']]],
-  ['sseg_5fy',['sseg_y',['../bcd__seven_8h.html#af266fcf4bf4e853c18160951f2b60691',1,'sseg_y():&#160;bcd_seven.h'],['../bcd__seven_8h.html#aa590df60aef626a39b4cfb92704f1543',1,'sseg_Y():&#160;bcd_seven.h']]],
-  ['sseg_5fz',['sseg_Z',['../bcd__seven_8h.html#ac67492c95ef7a8063a63a605f54da99b',1,'sseg_Z():&#160;bcd_seven.h'],['../bcd__seven_8h.html#a4540dc0decfdc00dc529ab57cd810363',1,'sseg_z():&#160;bcd_seven.h']]],
+  ['sseg_5fx',['sseg_X',['../bcd__seven_8h.html#aada2a5b1de293504171d87056a7e397d',1,'sseg_X():&#160;bcd_seven.h'],['../bcd__seven_8h.html#ae554a54b8bfe96392c22ae729b864fe0',1,'sseg_x():&#160;bcd_seven.h']]],
+  ['sseg_5fy',['sseg_Y',['../bcd__seven_8h.html#aa590df60aef626a39b4cfb92704f1543',1,'sseg_Y():&#160;bcd_seven.h'],['../bcd__seven_8h.html#af266fcf4bf4e853c18160951f2b60691',1,'sseg_y():&#160;bcd_seven.h']]],
+  ['sseg_5fz',['sseg_z',['../bcd__seven_8h.html#a4540dc0decfdc00dc529ab57cd810363',1,'sseg_z():&#160;bcd_seven.h'],['../bcd__seven_8h.html#ac67492c95ef7a8063a63a605f54da99b',1,'sseg_Z():&#160;bcd_seven.h']]],
   ['state',['state',['../structLed.html#a06ca8144f0c60cd7f6fa4733fed5006e',1,'Led']]]
 ];

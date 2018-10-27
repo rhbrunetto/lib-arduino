@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tst_5fbit',['tst_bit',['../macros_8h.html#a3b739088d0d6f1ae36a65d5b1345d7e5',1,'macros.h']]]
+  ['set_5fbit',['set_bit',['../macros_8h.html#a6f8cf673352be42c1d631bbd64adca83',1,'macros.h']]],
+  ['swt_5fbit',['swt_bit',['../macros_8h.html#ae6f260f9f603d8c2642866ffea3a8282',1,'macros.h']]]
 ];

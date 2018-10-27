@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['main',['main',['../testes_2bcd_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;bcd.c'],['../btn1_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;btn1.c'],['../btn2_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;btn2.c'],['../testes_2led_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;led.c'],['../sqrwave_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;sqrwave.c']]]
+  ['set_5finput',['set_input',['../pins_8h.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c'],['../pins_8c.html#aa82a3212e01fb8467139d1b8a9849ac1',1,'set_input(uint8_t number):&#160;pins.c']]],
+  ['set_5foutput',['set_output',['../pins_8h.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c'],['../pins_8c.html#ad333b94aee2a230fa628d71192e3ccdb',1,'set_output(uint8_t number):&#160;pins.c']]],
+  ['set_5fpullup',['set_pullup',['../pins_8h.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c'],['../pins_8c.html#a56368f5b26ddb0f80863dd6b5706e5f9',1,'set_pullup(uint8_t number):&#160;pins.c']]],
+  ['sqrwave',['sqrwave',['../pwm_8h.html#a0a58d3d065f5cc541df3aee91f490a88',1,'sqrwave(uint8_t, float):&#160;pwm.c'],['../pwm_8c.html#ae04783fb764ba6e965d7e8cd2b1c0720',1,'sqrwave(uint8_t pin, float freq):&#160;pwm.c']]],
+  ['supersonic',['supersonic',['../supersonic_8h.html#a4c3e04e24f5028d9e4ae731051d82873',1,'supersonic(uint8_t, uint8_t):&#160;supersonic.c'],['../supersonic_8c.html#a57d16a67510e2558c441ffd151009009',1,'supersonic(uint8_t trig, uint8_t echo):&#160;supersonic.c']]]
 ];

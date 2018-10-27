@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['led',['Led',['../structLed.html',1,'Led'],['../sqrwave_8c.html#a1f639e12141251259a876ef492f55df6',1,'led():&#160;sqrwave.c'],['../btn1_8c.html#a4e82c1ae704535f30f5f86faa9669cc1',1,'led():&#160;btn1.c'],['../btn2_8c.html#a4e82c1ae704535f30f5f86faa9669cc1',1,'led():&#160;btn2.c']]],
-  ['led_2ec',['led.c',['../led_8c.html',1,'(Global Namespace)'],['../testes_2led_8c.html',1,'(Global Namespace)']]],
+  ['led',['Led',['../structLed.html',1,'']]],
+  ['led_2ec',['led.c',['../led_8c.html',1,'']]],
   ['led_2eh',['led.h',['../led_8h.html',1,'']]],
   ['led_5fblink',['led_blink',['../led_8h.html#a97d866c54cf8e90a6c4808096664edf4',1,'led_blink(Led *led, double time_ms):&#160;led.c'],['../led_8c.html#a97d866c54cf8e90a6c4808096664edf4',1,'led_blink(Led *led, double time_ms):&#160;led.c']]],
   ['led_5ffree',['led_free',['../led_8h.html#ab6559d88dda645a70c2ac50d9b2d831f',1,'led_free(Led *led):&#160;led.c'],['../led_8c.html#ab6559d88dda645a70c2ac50d9b2d831f',1,'led_free(Led *led):&#160;led.c']]],
@@ -11,6 +11,7 @@ var searchData=
   ['led_5fstate',['led_state',['../led_8h.html#a9aa8c3dcec2b8da09483d627b83aa1de',1,'led_state():&#160;led.h'],['../led_8h.html#a0b3e708a23789547325388652a07cc6a',1,'Led_State():&#160;led.h']]],
   ['led_5fswitch_5flight',['led_switch_light',['../led_8h.html#a5ceb0e27b83f3e339081eddbc3fe09e3',1,'led_switch_light(Led *led):&#160;led.c'],['../led_8c.html#a5ceb0e27b83f3e339081eddbc3fe09e3',1,'led_switch_light(Led *led):&#160;led.c']]],
   ['lookup_5fcs',['lookup_cs',['../pwm_8h.html#a9d613b14ea9bbc134c57ad5939037c3f',1,'lookup_cs(float):&#160;pwm.c'],['../pwm_8c.html#a19b683068b5a4c77783f30980b9b9d49',1,'lookup_cs(float freq):&#160;pwm.c']]],
+  ['lookup_5fcs2',['lookup_cs2',['../pwm_8h.html#a85a460692e029334f885c00a2d4c7386',1,'lookup_cs2(float freq):&#160;pwm.c'],['../pwm_8c.html#a85a460692e029334f885c00a2d4c7386',1,'lookup_cs2(float freq):&#160;pwm.c']]],
   ['lookup_5focr',['lookup_ocr',['../pwm_8h.html#adc953c179073cc20db8cc9b99041fb78',1,'lookup_ocr(float):&#160;pwm.c'],['../pwm_8c.html#add61e561f21bf139749f8bd7e79567ac',1,'lookup_ocr(float freq):&#160;pwm.c']]],
   ['lookup_5fprescalar',['lookup_prescalar',['../pwm_8h.html#a4b931bdc5a3d9ece22294e3b6c2aaa37',1,'lookup_prescalar(float):&#160;pwm.c'],['../pwm_8c.html#aaa129110092a3861d5d8d5430a23cb54',1,'lookup_prescalar(float freq):&#160;pwm.c']]],
   ['loop',['loop',['../structBCD.html#a6daf4f1f982e97a20852eedd79f4d619',1,'BCD']]],

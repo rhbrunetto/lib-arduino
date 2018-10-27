@@ -21,7 +21,7 @@
  * which contains sufficient data to allow the
  * basic operations that involves I/O.
  */
- 
+
 typedef struct{
   volatile uint8_t P;           ///< Pin number associated by ATMega328p
   volatile uint8_t *_PORT;      ///< Points to a PORT register (pullup)
@@ -42,6 +42,7 @@ typedef struct{
     volatile uint8_t CS0;
     volatile uint8_t CS1;
     volatile uint8_t CS2;
+    volatile uint8_t WGM3;
 } bytes;
 
 extern Pin Pins[14];      ///< Digital pin instances, common to all files
