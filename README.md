@@ -36,7 +36,7 @@ Para utilizar a biblioteca basta incluir as arquivos header. Ex:
 
 ## Documentação
 
-A documentação está disponível em [doc/latex/refman.pdf](doc/latex/refman.pdf).
+A documentação está disponível em [docs/latex/refman.pdf](docs/latex/refman.pdf).
 
 ## Autores
 
