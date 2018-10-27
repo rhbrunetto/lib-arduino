@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pin',['pin',['../structpin.html',1,'']]]
+  ['pin',['Pin',['../structPin.html',1,'']]]
 ];

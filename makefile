@@ -1,7 +1,7 @@
 SRC_PATH=src/
 INC_PATH=$(SRC_PATH)include/
 
-EXEC=$(SRC_PATH)exec/main
+EXEC=exec/main
 # Compilation
 CC=avr-gcc
 CCOBJ=avr-objcopy

@@ -1,0 +1,32 @@
+\hypertarget{supersonic_8h}{}\section{src/include/supersonic.h File Reference}
+\label{supersonic_8h}\index{src/include/supersonic.\+h@{src/include/supersonic.\+h}}
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{supersonic_8h_a4c3e04e24f5028d9e4ae731051d82873}{supersonic}} (uint8\+\_\+t, uint8\+\_\+t)
+\begin{DoxyCompactList}\small\item\em Measures a distance based on a sonar. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{supersonic_8h_a4c3e04e24f5028d9e4ae731051d82873}\label{supersonic_8h_a4c3e04e24f5028d9e4ae731051d82873}} 
+\index{supersonic.\+h@{supersonic.\+h}!supersonic@{supersonic}}
+\index{supersonic@{supersonic}!supersonic.\+h@{supersonic.\+h}}
+\subsubsection{\texorpdfstring{supersonic()}{supersonic()}}
+{\footnotesize\ttfamily int supersonic (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{,  }\item[{uint8\+\_\+t}]{ }\end{DoxyParamCaption})}
+
+
+
+Measures a distance based on a sonar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em trig} & Digital pin number associated to the Trigger pin. \\
+\hline
+{\em echo} & Digital pin number associated to the Echo pin.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Measured distance (cm) between obstacle. 
+\end{DoxyReturn}

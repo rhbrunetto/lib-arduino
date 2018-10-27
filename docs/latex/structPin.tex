@@ -1,0 +1,118 @@
+\hypertarget{structPin}{}\section{Pin Struct Reference}
+\label{structPin}\index{Pin@{Pin}}
+
+
+{\ttfamily \#include $<$pins.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+volatile uint8\+\_\+t \mbox{\hyperlink{structPin_a618d69729d75bd51e89634bc81fcf49d}{P}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{structPin}{Pin}} number associated by A\+T\+Mega328p. \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a7ad2ae81751a3dd6e0ef0241a226b5bf}{\+\_\+\+P\+O\+RT}}
+\begin{DoxyCompactList}\small\item\em Points to a P\+O\+RT register (pullup) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a47b066cff2835c1b135cad6677dad889}{\+\_\+\+D\+DR}}
+\begin{DoxyCompactList}\small\item\em Points to a D\+DR register (data direction) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a22fa2dd8e8f6f82d434536ea9e517b91}{\+\_\+\+P\+IN}}
+\begin{DoxyCompactList}\small\item\em Points to a P\+IN register (input signal) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a2fedb759a2179270a390e2020d001f85}{\+\_\+\+T\+C\+CA}}
+\begin{DoxyCompactList}\small\item\em Points to the T\+C\+CA register (P\+WM) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a6e90b8ac6b2648d09ac6e7374bec1038}{\+\_\+\+T\+C\+CB}}
+\begin{DoxyCompactList}\small\item\em Points to the T\+C\+CB register (P\+WM) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_a976f138d98dad2ae1ef47a9c4b1f66bb}{\+\_\+\+O\+C\+RA}}
+\begin{DoxyCompactList}\small\item\em Points to the O\+C\+RA register (P\+WM) \end{DoxyCompactList}\item 
+volatile uint8\+\_\+t $\ast$ \mbox{\hyperlink{structPin_ad99c326bebfcc9f780b9590aaeb04f68}{\+\_\+\+O\+C\+RB}}
+\begin{DoxyCompactList}\small\item\em Points to the O\+C\+RB register (P\+WM) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Standard \mbox{\hyperlink{structPin}{Pin}} Structure
+
+This file provides a simple \mbox{\hyperlink{structPin}{Pin}} Structure, which contains sufficient data to allow the basic operations that involves I/O. 
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{structPin_a47b066cff2835c1b135cad6677dad889}\label{structPin_a47b066cff2835c1b135cad6677dad889}} 
+\index{Pin@{Pin}!\+\_\+\+D\+DR@{\+\_\+\+D\+DR}}
+\index{\+\_\+\+D\+DR@{\+\_\+\+D\+DR}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+D\+DR}{\_DDR}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+D\+DR}
+
+
+
+Points to a D\+DR register (data direction) 
+
+\mbox{\Hypertarget{structPin_a976f138d98dad2ae1ef47a9c4b1f66bb}\label{structPin_a976f138d98dad2ae1ef47a9c4b1f66bb}} 
+\index{Pin@{Pin}!\+\_\+\+O\+C\+RA@{\+\_\+\+O\+C\+RA}}
+\index{\+\_\+\+O\+C\+RA@{\+\_\+\+O\+C\+RA}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+O\+C\+RA}{\_OCRA}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+O\+C\+RA}
+
+
+
+Points to the O\+C\+RA register (P\+WM) 
+
+\mbox{\Hypertarget{structPin_ad99c326bebfcc9f780b9590aaeb04f68}\label{structPin_ad99c326bebfcc9f780b9590aaeb04f68}} 
+\index{Pin@{Pin}!\+\_\+\+O\+C\+RB@{\+\_\+\+O\+C\+RB}}
+\index{\+\_\+\+O\+C\+RB@{\+\_\+\+O\+C\+RB}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+O\+C\+RB}{\_OCRB}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+O\+C\+RB}
+
+
+
+Points to the O\+C\+RB register (P\+WM) 
+
+\mbox{\Hypertarget{structPin_a22fa2dd8e8f6f82d434536ea9e517b91}\label{structPin_a22fa2dd8e8f6f82d434536ea9e517b91}} 
+\index{Pin@{Pin}!\+\_\+\+P\+IN@{\+\_\+\+P\+IN}}
+\index{\+\_\+\+P\+IN@{\+\_\+\+P\+IN}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+P\+IN}{\_PIN}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+P\+IN}
+
+
+
+Points to a P\+IN register (input signal) 
+
+\mbox{\Hypertarget{structPin_a7ad2ae81751a3dd6e0ef0241a226b5bf}\label{structPin_a7ad2ae81751a3dd6e0ef0241a226b5bf}} 
+\index{Pin@{Pin}!\+\_\+\+P\+O\+RT@{\+\_\+\+P\+O\+RT}}
+\index{\+\_\+\+P\+O\+RT@{\+\_\+\+P\+O\+RT}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+P\+O\+RT}{\_PORT}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+P\+O\+RT}
+
+
+
+Points to a P\+O\+RT register (pullup) 
+
+\mbox{\Hypertarget{structPin_a2fedb759a2179270a390e2020d001f85}\label{structPin_a2fedb759a2179270a390e2020d001f85}} 
+\index{Pin@{Pin}!\+\_\+\+T\+C\+CA@{\+\_\+\+T\+C\+CA}}
+\index{\+\_\+\+T\+C\+CA@{\+\_\+\+T\+C\+CA}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+T\+C\+CA}{\_TCCA}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+T\+C\+CA}
+
+
+
+Points to the T\+C\+CA register (P\+WM) 
+
+\mbox{\Hypertarget{structPin_a6e90b8ac6b2648d09ac6e7374bec1038}\label{structPin_a6e90b8ac6b2648d09ac6e7374bec1038}} 
+\index{Pin@{Pin}!\+\_\+\+T\+C\+CB@{\+\_\+\+T\+C\+CB}}
+\index{\+\_\+\+T\+C\+CB@{\+\_\+\+T\+C\+CB}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{\+\_\+\+T\+C\+CB}{\_TCCB}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t$\ast$ Pin\+::\+\_\+\+T\+C\+CB}
+
+
+
+Points to the T\+C\+CB register (P\+WM) 
+
+\mbox{\Hypertarget{structPin_a618d69729d75bd51e89634bc81fcf49d}\label{structPin_a618d69729d75bd51e89634bc81fcf49d}} 
+\index{Pin@{Pin}!P@{P}}
+\index{P@{P}!Pin@{Pin}}
+\subsubsection{\texorpdfstring{P}{P}}
+{\footnotesize\ttfamily volatile uint8\+\_\+t Pin\+::P}
+
+
+
+\mbox{\hyperlink{structPin}{Pin}} number associated by A\+T\+Mega328p. 
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/include/\mbox{\hyperlink{pins_8h}{pins.\+h}}\end{DoxyCompactItemize}

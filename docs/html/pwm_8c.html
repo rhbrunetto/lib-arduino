@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>lib-arduino: pwm.c File Reference</title>
+<title>lib-arduino: src/pwm.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -98,15 +98,22 @@ $(document).ready(function(){initNavTree('pwm_8c.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aaa129110092a3861d5d8d5430a23cb54"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#aaa129110092a3861d5d8d5430a23cb54">lookup_prescalar</a> (float freq)</td></tr>
+<tr class="memdesc:aaa129110092a3861d5d8d5430a23cb54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the prescalar based on frequency.  <a href="#aaa129110092a3861d5d8d5430a23cb54">More...</a><br /></td></tr>
 <tr class="separator:aaa129110092a3861d5d8d5430a23cb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19b683068b5a4c77783f30980b9b9d49"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a19b683068b5a4c77783f30980b9b9d49">lookup_cs</a> (float freq)</td></tr>
+<tr class="memdesc:a19b683068b5a4c77783f30980b9b9d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies the CS control bits value based on frequency.  <a href="#a19b683068b5a4c77783f30980b9b9d49">More...</a><br /></td></tr>
 <tr class="separator:a19b683068b5a4c77783f30980b9b9d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a460692e029334f885c00a2d4c7386"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a85a460692e029334f885c00a2d4c7386">lookup_cs2</a> (float freq)</td></tr>
+<tr class="separator:a85a460692e029334f885c00a2d4c7386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add61e561f21bf139749f8bd7e79567ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#add61e561f21bf139749f8bd7e79567ac">lookup_ocr</a> (float freq)</td></tr>
+<tr class="memdesc:add61e561f21bf139749f8bd7e79567ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies OCR value based on frequency.  <a href="#add61e561f21bf139749f8bd7e79567ac">More...</a><br /></td></tr>
 <tr class="separator:add61e561f21bf139749f8bd7e79567ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae04783fb764ba6e965d7e8cd2b1c0720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#ae04783fb764ba6e965d7e8cd2b1c0720">sqrwave</a> (uint8_t <a class="el" href="structpin.html">pin</a>, float freq)</td></tr>
+<tr class="memitem:ae04783fb764ba6e965d7e8cd2b1c0720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#ae04783fb764ba6e965d7e8cd2b1c0720">sqrwave</a> (uint8_t pin, float freq)</td></tr>
+<tr class="memdesc:ae04783fb764ba6e965d7e8cd2b1c0720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates square waves pulse in a pin based on frequency.  <a href="#ae04783fb764ba6e965d7e8cd2b1c0720">More...</a><br /></td></tr>
 <tr class="separator:ae04783fb764ba6e965d7e8cd2b1c0720"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42eab57a4f4b7235af46aed46bec75b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a42eab57a4f4b7235af46aed46bec75b4">pwmwave</a> (uint8_t <a class="el" href="structpin.html">pin</a>, uint8_t dutycicle)</td></tr>
-<tr class="separator:a42eab57a4f4b7235af46aed46bec75b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89793eefc374fc55e44dc90262e371de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pwm_8c.html#a89793eefc374fc55e44dc90262e371de">pwmwave</a> (uint8_t pin, uint8_t dutycycle)</td></tr>
+<tr class="memdesc:a89793eefc374fc55e44dc90262e371de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates PWM waves in a pin based on a duty cycle.  <a href="#a89793eefc374fc55e44dc90262e371de">More...</a><br /></td></tr>
+<tr class="separator:a89793eefc374fc55e44dc90262e371de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a19b683068b5a4c77783f30980b9b9d49"></a>
@@ -117,6 +124,33 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">uint8_t lookup_cs </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Specifies the CS control bits value based on frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Frequency value (Hz)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CS control bits value </dd></dl>
+
+</div>
+</div>
+<a id="a85a460692e029334f885c00a2d4c7386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85a460692e029334f885c00a2d4c7386">&#9670;&nbsp;</a></span>lookup_cs2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t lookup_cs2 </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>freq</em></td><td>)</td>
@@ -137,11 +171,20 @@ Functions</h2></td></tr>
           <td class="memname">int lookup_ocr </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Specifies OCR value based on frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Frequency value (Hz)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>OCR value </dd></dl>
 
 </div>
 </div>
@@ -155,16 +198,25 @@ Functions</h2></td></tr>
           <td class="memname">float lookup_prescalar </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>freq</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Specifies the prescalar based on frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">freq</td><td>Frequency value (Hz)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Prescalar value </dd></dl>
+
 </div>
 </div>
-<a id="a42eab57a4f4b7235af46aed46bec75b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42eab57a4f4b7235af46aed46bec75b4">&#9670;&nbsp;</a></span>pwmwave()</h2>
+<a id="a89793eefc374fc55e44dc90262e371de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89793eefc374fc55e44dc90262e371de">&#9670;&nbsp;</a></span>pwmwave()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,13 +225,13 @@ Functions</h2></td></tr>
           <td class="memname">void pwmwave </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>pin</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>dutycicle</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -188,6 +240,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Generates PWM waves in a pin based on a duty cycle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td><a class="el" href="structPin.html">Pin</a> number </td></tr>
+    <tr><td class="paramname">dutycycle</td><td>Duty cycle value (0 ~ 255) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -201,13 +262,13 @@ Functions</h2></td></tr>
           <td class="memname">void sqrwave </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>pin</em>, </td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>freq</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -217,6 +278,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates square waves pulse in a pin based on frequency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin</td><td><a class="el" href="structPin.html">Pin</a> number </td></tr>
+    <tr><td class="paramname">freq</td><td>Frequency value (Hz) <br />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -224,7 +295,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="pwm_8c.html">pwm.c</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="pwm_8c.html">pwm.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>

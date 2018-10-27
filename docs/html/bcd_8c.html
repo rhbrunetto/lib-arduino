@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>lib-arduino: bcd.c File Reference</title>
+<title>lib-arduino: src/bcd.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -101,16 +101,22 @@ Functions</h2></td></tr>
 <tr class="memdesc:a36a6644def189986a2751d20a27e4467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups a new instance of a display.  <a href="#a36a6644def189986a2751d20a27e4467">More...</a><br /></td></tr>
 <tr class="separator:a36a6644def189986a2751d20a27e4467"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ede2f0afc6b7bd9581edf83d5c8477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#a15ede2f0afc6b7bd9581edf83d5c8477">bcd_show_char</a> (<a class="el" href="structBCD.html">BCD</a> *display, char c)</td></tr>
+<tr class="memdesc:a15ede2f0afc6b7bd9581edf83d5c8477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays an ASCII character in a display.  <a href="#a15ede2f0afc6b7bd9581edf83d5c8477">More...</a><br /></td></tr>
 <tr class="separator:a15ede2f0afc6b7bd9581edf83d5c8477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a4c2282b5d2a6199f74d86d8988f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#ae5a4c2282b5d2a6199f74d86d8988f93">bcd_set_loop</a> (<a class="el" href="structBCD.html">BCD</a> *display, uint8_t loop)</td></tr>
+<tr class="memdesc:ae5a4c2282b5d2a6199f74d86d8988f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a loop mode for a display.  <a href="#ae5a4c2282b5d2a6199f74d86d8988f93">More...</a><br /></td></tr>
 <tr class="separator:ae5a4c2282b5d2a6199f74d86d8988f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3af4c44973bb937ffdb4dc94239c650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#ac3af4c44973bb937ffdb4dc94239c650">bcd_delay</a> (<a class="el" href="structBCD.html">BCD</a> *display)</td></tr>
+<tr class="memdesc:ac3af4c44973bb937ffdb4dc94239c650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Freezes a display for a presetted delay.  <a href="#ac3af4c44973bb937ffdb4dc94239c650">More...</a><br /></td></tr>
 <tr class="separator:ac3af4c44973bb937ffdb4dc94239c650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac488206ee04be4b47518367cd7af382a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#ac488206ee04be4b47518367cd7af382a">bcd_clear</a> (<a class="el" href="structBCD.html">BCD</a> *display)</td></tr>
+<tr class="memdesc:ac488206ee04be4b47518367cd7af382a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears a display.  <a href="#ac488206ee04be4b47518367cd7af382a">More...</a><br /></td></tr>
 <tr class="separator:ac488206ee04be4b47518367cd7af382a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1efafe46c108ee48c3a179473bc85165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#a1efafe46c108ee48c3a179473bc85165">bcd_show_string</a> (<a class="el" href="structBCD.html">BCD</a> *display, char *str)</td></tr>
+<tr class="memdesc:a1efafe46c108ee48c3a179473bc85165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a string in a display, a character at a time, interleaved by a delay.  <a href="#a1efafe46c108ee48c3a179473bc85165">More...</a><br /></td></tr>
 <tr class="separator:a1efafe46c108ee48c3a179473bc85165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e62f40aca9b36145ccc3a567d10a214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bcd_8c.html#a9e62f40aca9b36145ccc3a567d10a214">bcd_free</a> (<a class="el" href="structBCD.html">BCD</a> *display)</td></tr>
+<tr class="memdesc:a9e62f40aca9b36145ccc3a567d10a214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a display instance.  <a href="#a9e62f40aca9b36145ccc3a567d10a214">More...</a><br /></td></tr>
 <tr class="separator:a9e62f40aca9b36145ccc3a567d10a214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,6 +136,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Clears a display. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ac3af4c44973bb937ffdb4dc94239c650"></a>
@@ -148,6 +162,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Freezes a display for a presetted delay. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a9e62f40aca9b36145ccc3a567d10a214"></a>
@@ -165,6 +187,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destroys a display instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -193,6 +223,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets a loop mode for a display. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+    <tr><td class="paramname">loop</td><td>Defines a unique exhibition (0) or a cyclic exhibition (any other value). </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -267,19 +306,19 @@ Functions</h2></td></tr>
 <p>Setups a new instance of a display. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">a</td><td>is the digital pin where the display pin 'a' is plugged. </td></tr>
-    <tr><td class="paramname">b</td><td>is the digital pin where the display pin 'b' is plugged. </td></tr>
-    <tr><td class="paramname">c</td><td>is the digital pin where the display pin 'c' is plugged. </td></tr>
-    <tr><td class="paramname">d</td><td>is the digital pin where the display pin 'd' is plugged. </td></tr>
-    <tr><td class="paramname">e</td><td>is the digital pin where the display pin 'e' is plugged. </td></tr>
-    <tr><td class="paramname">f</td><td>is the digital pin where the display pin 'f' is plugged. </td></tr>
-    <tr><td class="paramname">g</td><td>is the digital pin where the display pin 'g' is plugged. </td></tr>
-    <tr><td class="paramname">dp</td><td>is the digital pin where the dot pin of display is plugged </td></tr>
-    <tr><td class="paramname">delay</td><td>is the delay between transactions, if multiple characters are going to be shown.</td></tr>
+    <tr><td class="paramname">a</td><td>Digital pin where the display pin 'a' is plugged. </td></tr>
+    <tr><td class="paramname">b</td><td>Digital pin where the display pin 'b' is plugged. </td></tr>
+    <tr><td class="paramname">c</td><td>Digital pin where the display pin 'c' is plugged. </td></tr>
+    <tr><td class="paramname">d</td><td>Digital pin where the display pin 'd' is plugged. </td></tr>
+    <tr><td class="paramname">e</td><td>Digital pin where the display pin 'e' is plugged. </td></tr>
+    <tr><td class="paramname">f</td><td>Digital pin where the display pin 'f' is plugged. </td></tr>
+    <tr><td class="paramname">g</td><td>Digital pin where the display pin 'g' is plugged. </td></tr>
+    <tr><td class="paramname">dp</td><td>Digital pin where the dot pin of display is plugged. </td></tr>
+    <tr><td class="paramname">delay</td><td>Delay between transactions, if multiple characters are going to be shown.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to display structure. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to display structure. </dd></dl>
 
 </div>
 </div>
@@ -299,7 +338,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
+          <td class="paramname"><em>character</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -308,6 +347,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Displays an ASCII character in a display. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+    <tr><td class="paramname">character</td><td>Character to be shown. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -337,6 +385,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Displays a string in a display, a character at a time, interleaved by a delay. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">display</td><td>Display instance. </td></tr>
+    <tr><td class="paramname">str</td><td>String to be shown. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -344,7 +401,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="bcd_8c.html">bcd.c</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="bcd_8c.html">bcd.c</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>

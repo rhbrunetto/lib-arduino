@@ -1,0 +1,51 @@
+\hypertarget{uart_8c}{}\section{src/uart.c File Reference}
+\label{uart_8c}\index{src/uart.\+c@{src/uart.\+c}}
+{\ttfamily \#include \char`\"{}uart.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$avr/io.\+h$>$}\newline
+{\ttfamily \#include $<$avr/sfr\+\_\+defs.\+h$>$}\newline
+{\ttfamily \#include $<$util/setbaud.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{uart_8c_a0c0ca72359ddf28dcd15900dfba19343}{uart\+\_\+init}} (void)
+\item 
+int \mbox{\hyperlink{uart_8c_a985ba70f2a53d95f1fd11f70f1d8f4f6}{uart\+\_\+putchar}} (char c, F\+I\+LE $\ast$stream)
+\item 
+int \mbox{\hyperlink{uart_8c_ae29d6eea5f2e7997551b4acb64082d8e}{uart\+\_\+getchar}} (F\+I\+LE $\ast$stream)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static F\+I\+LE \mbox{\hyperlink{uart_8c_ac9f753a7fa51a6648187e06e69c3275d}{uart\+\_\+io}} = F\+D\+E\+V\+\_\+\+S\+E\+T\+U\+P\+\_\+\+S\+T\+R\+E\+AM(\mbox{\hyperlink{uart_8c_a985ba70f2a53d95f1fd11f70f1d8f4f6}{uart\+\_\+putchar}}, \mbox{\hyperlink{uart_8c_ae29d6eea5f2e7997551b4acb64082d8e}{uart\+\_\+getchar}}, \+\_\+\+F\+D\+E\+V\+\_\+\+S\+E\+T\+U\+P\+\_\+\+RW)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{uart_8c_ae29d6eea5f2e7997551b4acb64082d8e}\label{uart_8c_ae29d6eea5f2e7997551b4acb64082d8e}} 
+\index{uart.\+c@{uart.\+c}!uart\+\_\+getchar@{uart\+\_\+getchar}}
+\index{uart\+\_\+getchar@{uart\+\_\+getchar}!uart.\+c@{uart.\+c}}
+\subsubsection{\texorpdfstring{uart\+\_\+getchar()}{uart\_getchar()}}
+{\footnotesize\ttfamily int uart\+\_\+getchar (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{stream }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{uart_8c_a0c0ca72359ddf28dcd15900dfba19343}\label{uart_8c_a0c0ca72359ddf28dcd15900dfba19343}} 
+\index{uart.\+c@{uart.\+c}!uart\+\_\+init@{uart\+\_\+init}}
+\index{uart\+\_\+init@{uart\+\_\+init}!uart.\+c@{uart.\+c}}
+\subsubsection{\texorpdfstring{uart\+\_\+init()}{uart\_init()}}
+{\footnotesize\ttfamily void uart\+\_\+init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{uart_8c_a985ba70f2a53d95f1fd11f70f1d8f4f6}\label{uart_8c_a985ba70f2a53d95f1fd11f70f1d8f4f6}} 
+\index{uart.\+c@{uart.\+c}!uart\+\_\+putchar@{uart\+\_\+putchar}}
+\index{uart\+\_\+putchar@{uart\+\_\+putchar}!uart.\+c@{uart.\+c}}
+\subsubsection{\texorpdfstring{uart\+\_\+putchar()}{uart\_putchar()}}
+{\footnotesize\ttfamily int uart\+\_\+putchar (\begin{DoxyParamCaption}\item[{char}]{c,  }\item[{F\+I\+LE $\ast$}]{stream }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{uart_8c_ac9f753a7fa51a6648187e06e69c3275d}\label{uart_8c_ac9f753a7fa51a6648187e06e69c3275d}} 
+\index{uart.\+c@{uart.\+c}!uart\+\_\+io@{uart\+\_\+io}}
+\index{uart\+\_\+io@{uart\+\_\+io}!uart.\+c@{uart.\+c}}
+\subsubsection{\texorpdfstring{uart\+\_\+io}{uart\_io}}
+{\footnotesize\ttfamily F\+I\+LE uart\+\_\+io = F\+D\+E\+V\+\_\+\+S\+E\+T\+U\+P\+\_\+\+S\+T\+R\+E\+AM(\mbox{\hyperlink{uart_8c_a985ba70f2a53d95f1fd11f70f1d8f4f6}{uart\+\_\+putchar}}, \mbox{\hyperlink{uart_8c_ae29d6eea5f2e7997551b4acb64082d8e}{uart\+\_\+getchar}}, \+\_\+\+F\+D\+E\+V\+\_\+\+S\+E\+T\+U\+P\+\_\+\+RW)\hspace{0.3cm}{\ttfamily [static]}}
+

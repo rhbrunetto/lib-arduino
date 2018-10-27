@@ -1,21 +1,20 @@
 #include "pins.h"
 
-pin Pins[] = {
-  {PD0, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},   // rx
-  {PD1, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},   // tx
-
-  {PD2, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},   // dpin 2
-  {PD3, &PORTD, &DDRD, &PIND, &TCCR2A, &TCCR2B, &OCR2A, &OCR2B},   // dpin 3
-  {PD4, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},   // dpin 4
-  {PD5, &PORTD, &DDRD, &PIND, &TCCR0A, &TCCR0B, &OCR0A, &OCR0B},   // dpin 5
-  {PD6, &PORTD, &DDRD, &PIND, &TCCR0A, &TCCR0B, &OCR0A, NULL},   // dpin 6
-  {PD7, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},   // dpin 7
-  {PB0, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL},   // dpin 8
-  {PB1, &PORTB, &DDRB, &PINB, &TCCR1A, &TCCR1B, (uint8_t*)&OCR1A, NULL },   // dpin 9
-  {PB2, &PORTB, &DDRB, &PINB, &TCCR1A, &TCCR1B, (uint8_t*)&OCR1A, (uint8_t*)&OCR1B},   // dpin 10
-  {PB3, &PORTB, &DDRB, &PINB, &TCCR2A, &TCCR2B, &OCR2A, NULL},   // dpin 11
-  {PB4, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL},   // dpin 12
-  {PB5, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL}    // dpin 13
+Pin Pins[] = {
+  {PD0, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},                                  // rx
+  {PD1, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},                                  // tx
+  {PD2, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},                                  // dpin 2
+  {PD3, &PORTD, &DDRD, &PIND, &TCCR2A, &TCCR2B, &OCR2A, &OCR2B},                        // dpin 3
+  {PD4, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},                                  // dpin 4
+  {PD5, &PORTD, &DDRD, &PIND, &TCCR0A, &TCCR0B, &OCR0A, &OCR0B},                        // dpin 5
+  {PD6, &PORTD, &DDRD, &PIND, &TCCR0A, &TCCR0B, &OCR0A, NULL},                          // dpin 6
+  {PD7, &PORTD, &DDRD, &PIND, NULL, NULL, NULL, NULL},                                  // dpin 7
+  {PB0, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL},                                  // dpin 8
+  {PB1, &PORTB, &DDRB, &PINB, &TCCR1A, &TCCR1B, (uint8_t*)&OCR1A, NULL },               // dpin 9
+  {PB2, &PORTB, &DDRB, &PINB, &TCCR1A, &TCCR1B, (uint8_t*)&OCR1A, (uint8_t*)&OCR1B},    // dpin 10
+  {PB3, &PORTB, &DDRB, &PINB, &TCCR2A, &TCCR2B, &OCR2A, NULL},                          // dpin 11
+  {PB4, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL},                                  // dpin 12
+  {PB5, &PORTB, &DDRB, &PINB, NULL, NULL, NULL, NULL}                                   // dpin 13
 };
 
 bytes Bytes[]= {

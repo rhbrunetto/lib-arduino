@@ -8,5 +8,5 @@ var pins_8c =
     [ "test_input", "pins_8c.html#adedc899ca0b2de7281146716c21194d3", null ],
     [ "toggle_pullup", "pins_8c.html#a0c75de8752fd68a897985a83a800b2be", null ],
     [ "Bytes", "pins_8c.html#a4c6e4e5566166ec06748fd058d1ab360", null ],
-    [ "Pins", "pins_8c.html#a31c007f58574c07c5294eb6f02826ef0", null ]
+    [ "Pins", "pins_8c.html#a99d7e1a195bfb1242b2fc873a0632699", null ]
 ];

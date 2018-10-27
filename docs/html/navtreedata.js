@@ -24,6 +24,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "lib-arduino", "index.html", [
+    [ "lib-arduino", "md_src_README.html", null ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -49,7 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"uart_8h.html#a43bafb28b29491ec7f871319b5a3b2f8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

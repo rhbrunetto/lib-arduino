@@ -1,8 +1,9 @@
 var searchData=
 [
   ['b',['b',['../structBCD.html#ad0a5d9e51ea7e8cc105a6d02cec8b60b',1,'BCD']]],
+  ['baud',['BAUD',['../uart_8h.html#a62634036639f88eece6fbf226b45f84b',1,'uart.h']]],
   ['bcd',['BCD',['../structBCD.html',1,'']]],
-  ['bcd_2ec',['bcd.c',['../bcd_8c.html',1,'(Global Namespace)'],['../testes_2bcd_8c.html',1,'(Global Namespace)']]],
+  ['bcd_2ec',['bcd.c',['../bcd_8c.html',1,'']]],
   ['bcd_2eh',['bcd.h',['../bcd_8h.html',1,'']]],
   ['bcd_5fclear',['bcd_clear',['../bcd_8c.html#ac488206ee04be4b47518367cd7af382a',1,'bcd_clear(BCD *display):&#160;bcd.c'],['../bcd_8h.html#ac488206ee04be4b47518367cd7af382a',1,'bcd_clear(BCD *display):&#160;bcd.c']]],
   ['bcd_5fdelay',['bcd_delay',['../bcd_8c.html#ac3af4c44973bb937ffdb4dc94239c650',1,'bcd_delay(BCD *display):&#160;bcd.c'],['../bcd_8h.html#ac3af4c44973bb937ffdb4dc94239c650',1,'bcd_delay(BCD *display):&#160;bcd.c']]],
@@ -12,8 +13,6 @@ var searchData=
   ['bcd_5fseven_2eh',['bcd_seven.h',['../bcd__seven_8h.html',1,'']]],
   ['bcd_5fshow_5fchar',['bcd_show_char',['../bcd_8c.html#a15ede2f0afc6b7bd9581edf83d5c8477',1,'bcd_show_char(BCD *display, char c):&#160;bcd.c'],['../bcd_8h.html#a8d73a731a9c2a347e11b459afa4a43c2',1,'bcd_show_char(BCD *display, char character):&#160;bcd.c']]],
   ['bcd_5fshow_5fstring',['bcd_show_string',['../bcd_8c.html#a1efafe46c108ee48c3a179473bc85165',1,'bcd_show_string(BCD *display, char *str):&#160;bcd.c'],['../bcd_8h.html#a1efafe46c108ee48c3a179473bc85165',1,'bcd_show_string(BCD *display, char *str):&#160;bcd.c']]],
-  ['btn1_2ec',['btn1.c',['../btn1_8c.html',1,'']]],
-  ['btn2_2ec',['btn2.c',['../btn2_8c.html',1,'']]],
   ['btn_5fdown',['Btn_Down',['../button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4a281ebd969c4d91fcddd675f8261af358',1,'button.h']]],
   ['btn_5ffired',['btn_fired',['../button_8c.html#aa7618afbabcf8b8ba3f7a69dec504197',1,'btn_fired(Button *b):&#160;button.c'],['../button_8h.html#aa7618afbabcf8b8ba3f7a69dec504197',1,'btn_fired(Button *b):&#160;button.c']]],
   ['btn_5fpressed',['btn_pressed',['../button_8c.html#af0ce243e3702bc0423cd5d39afa75251',1,'btn_pressed(Button *b):&#160;button.c'],['../button_8h.html#af0ce243e3702bc0423cd5d39afa75251',1,'btn_pressed(Button *b):&#160;button.c']]],
@@ -24,6 +23,6 @@ var searchData=
   ['button',['Button',['../structButton.html',1,'']]],
   ['button_2ec',['button.c',['../button_8c.html',1,'']]],
   ['button_2eh',['button.h',['../button_8h.html',1,'']]],
-  ['button_5fmode',['Button_Mode',['../button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190',1,'Button_Mode():&#160;button.h'],['../button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4',1,'button_mode():&#160;button.h']]],
+  ['button_5fmode',['button_mode',['../button_8h.html#a623a52dd1d9943610d07b12f7f3b37b4',1,'button_mode():&#160;button.h'],['../button_8h.html#a9a185102e3c0ad41aac006e0e2fcb190',1,'Button_Mode():&#160;button.h']]],
   ['bytes',['bytes',['../structbytes.html',1,'bytes'],['../pins_8h.html#a44d17ade5c985deea23f4b5ddf9e3589',1,'Bytes():&#160;pins.c'],['../pins_8c.html#a4c6e4e5566166ec06748fd058d1ab360',1,'Bytes():&#160;pins.c']]]
 ];
