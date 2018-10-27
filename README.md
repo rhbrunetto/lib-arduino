@@ -14,8 +14,35 @@ Biblioteca desenvolvida como primeiro trabalho da disciplina de Sistemas Digitai
 
 ## Requisitos
 
-A biblioteca foi desenvolvida para ambiente Linux. As dependências:
+A biblioteca foi desenvolvida para ambiente Linux, chip alvo Atmega328p. As dependências:
+
 ```
+avrdude
+gcc-avr
+```
+
+## Utilização 
+
+Crie um arquivo fonte ~~main.c~~ no diretorio ~~src/exec~~, em seguida:
+```
+make
+```
+
+Para utilizar a biblioteca basta incluir as arquivos header. Ex:
+
+```
+#include "pins.h"
+```
+
+## Documentação
+
+A documentação está disponível em ~~doc/~~.
+
+## Autores
+
+Ricardo Henrique Brunetto ra94182
+Thiago Kira ra78750
+
 
 
 
