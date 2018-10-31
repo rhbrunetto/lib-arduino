@@ -29,11 +29,11 @@ void led_switch_light(Led * led){
   }
 }
 
-void led_blink(Led * led, double time_ms){
+void led_blink(Led * led, uint32_t time_ms){
   led_make_light(led);
-  _delay_ms(1000);
+  delay_ms(time_ms);
   led_kill_light(led);
-  _delay_ms(1000);  
+  delay_ms(time_ms);  
 }
 
 void led_free(Led * led){

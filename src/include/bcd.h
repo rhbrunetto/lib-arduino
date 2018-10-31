@@ -3,6 +3,7 @@
 
 #include "pins.h"
 #include <stdlib.h>
+#include "delay.h"
 
 /** Standard 7-seg Display structure
  *
@@ -22,7 +23,7 @@ typedef struct {
   uint8_t f;        ///< Represents the display pin 'f'.
   uint8_t g;        ///< Represents the display pin 'g'.
   uint8_t dp;       ///< Represents the display pin 'dot'.
-  double delay;     ///< Represents a delay between character transition.
+  uint32_t delay;   ///< Represents a delay between character transition.
   uint8_t loop;     ///< Stores the current display mode: 0 for unique exhibition, or any other value for cyclic exhibition.
 }BCD;
 
@@ -40,7 +41,7 @@ typedef struct {
   *
   * @return A pointer to display structure. 
   */
-BCD * bcd_setup(uint8_t a, uint8_t b, uint8_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t dp, double delay);
+BCD * bcd_setup(uint8_t a, uint8_t b, uint8_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t dp, uint32_t delay);
 
 /** 
   * @brief Displays an ASCII character in a display.

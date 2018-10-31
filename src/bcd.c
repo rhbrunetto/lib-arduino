@@ -1,7 +1,7 @@
 #include "bcd.h"
 #include "bcd_seven.h"
 
-BCD * bcd_setup(uint8_t a, uint8_t b, uint8_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t dp, double delay){
+BCD * bcd_setup(uint8_t a, uint8_t b, uint8_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t dp, uint32_t delay){
   BCD * bcd = (BCD*)malloc(sizeof(BCD));
 
   bcd->a = a;   set_output(a);  set_pullup(a);
@@ -49,7 +49,7 @@ void bcd_set_loop(BCD * display, uint8_t loop){
 }
 
 void bcd_delay(BCD * display){
-  _delay_ms(500);
+  delay_ms(display->delay);
 }
 
 void bcd_clear(BCD * display){

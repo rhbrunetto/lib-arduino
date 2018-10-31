@@ -2,6 +2,7 @@
 #define __LED__
 
 #include "pins.h"
+#include "delay.h"
 
 typedef enum led_state {On = 1,     ///< Led's light is on
                         Off = 0     ///< Led's light is off
@@ -49,7 +50,7 @@ void led_switch_light(Led * led);
   * @param led Led instance.
   * @param time_ms Time interval to keep Led's light on and off.
   */
-void led_blink(Led * led, double time_ms);
+void led_blink(Led * led, uint32_t time_ms);
 
 /** 
   * @brief Destroys a Led instance.
